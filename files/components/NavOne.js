@@ -77,15 +77,9 @@ class NavOne extends Component {
                                                 <nav className="main-navigation">
                                                     <ul>
                                                         <li className="active"><Link href="/"><a>Home</a></Link></li>
-                                                        <li><a href="#">causes</a>
-                                                            <ul className="dropdown-menu-item">
-                                                                <li><Link href="/causes"><a>causes</a></Link></li>
-                                                                <li><Link href="/causes-detail"><a>causes detail</a></Link></li>
-                                                                <li><Link href="/donate"><a>donate now</a></Link></li>
-                                                            </ul>
-                                                        </li>
-                                                        <li className="active"><Link href="/gallery"><a>shop</a></Link></li>
-                                                        <li className="active"><Link href="/contact"><a>contact</a></Link></li>
+                                                        <li className="active"><Link href="/causes"><a>Causes</a></Link></li>
+                                                        <li className="active"><Link href="/gallery"><a>Shop</a></Link></li>
+                                                        <li className="active"><Link href="/contact"><a>Contact</a></Link></li>
                                                     </ul>
                                                 </nav>
                                             </div>
@@ -104,52 +98,12 @@ class NavOne extends Component {
                         </div>
                         <div className="side-menu-wrap">
                             <ul className="side-menu-ul">
-                                <li className="sidenav__item"><a href="/">home</a>
-                                    <span className="menu-plus-icon"></span>
-                                    <ul className="side-sub-menu">
-                                        <li><Link href="/"><a>Home 1</a></Link></li>
-                                        <li><Link href="/index2"><a>Home 2</a></Link></li>
-                                    </ul>
-                                </li>
-                                <li className="sidenav__item"><a href="#">causes</a>
-                                    <span className="menu-plus-icon"></span>
-                                    <ul className="side-sub-menu">
-                                        <li><Link href="/causes"><a>causes</a></Link></li>
-                                        <li><Link href="/causes-detail"><a>causes detail</a></Link></li>
-                                        <li><Link href="/donate"><a>donate now</a></Link></li>
-                                    </ul>
-                                </li>
-                                <li className="sidenav__item"><a href="#">event</a>
-                                    <span className="menu-plus-icon"></span>
-                                    <ul className="side-sub-menu">
-                                        <li><Link href="/events"><a>events</a></Link></li>
-                                        <li><Link href="/events-detail"><a>events detail</a></Link></li>
-                                    </ul>
-                                </li>
-                                <li className="sidenav__item"><a href="#">news</a>
-                                    <span className="menu-plus-icon"></span>
-                                    <ul className="side-sub-menu">
-                                        <li><Link href="/news"><a>news</a></Link></li>
-                                        <li><Link href="/single-news"><a>news detail</a></Link></li>
-                                    </ul>
-                                </li>
-                                <li className="sidenav__item"><a href="#">pages</a>
-                                    <span className="menu-plus-icon"></span>
-                                    <ul className="side-sub-menu">
-                                        <li><Link href="/about"><a>about</a></Link></li>
-                                        <li><Link href="/gallery"><a>gallery</a></Link></li>
-                                        <li><Link href="/volunteer"><a>become a volunteer</a></Link></li>
-                                        <li><Link href="/team"><a>our team</a></Link></li>
-                                        <li><Link href="/sponsor"><a>sponsors</a></Link></li>
-                                    </ul>
-                                </li>
+                                {/* Might need to change className for mobile compatiblity */}
+                                <li className="sidenav__item"><Link href="/"><a>Home</a></Link></li>
+                                <li className="sidenav__item"><Link href="/causes"><a>Causes</a></Link></li>
+                                <li className="sidenav__item"><Link href="/gallery"><a>Shop</a></Link></li>
+                                <li className="sidenav__item"><Link href="/contact"><a>Contact</a></Link></li>
                                 <li className="sidenav__item"><Link href="/contact"><a>contact</a></Link></li>
-                            </ul>
-                            <ul className="side-social">
-                                <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i className="fa fa-youtube-play"></i></a></li>
-                                <li><a href="#"><i className="fa fa-google-plus"></i></a></li>
                             </ul>
                             <div className="side-btn">
                                 <Link href="/donate"><a className="theme-btn">donate now</a></Link>

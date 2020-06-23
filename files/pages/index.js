@@ -22,7 +22,6 @@ const HomePage = () => {
         <Layout pageTitle="Project Break The Cycle - Sustainably Ending Poverty">
           <NavOne />
           <SliderOne />
-          <EntryArea />
           <ServiceArea />
           <HiwArea />
           <MixerArea />

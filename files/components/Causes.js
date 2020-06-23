@@ -17,7 +17,7 @@ const Causes = () => {
                                     </h3>
                                     <p className="blog__desc">Aliq is notm hendr erit a augue insu image pellen tes.</p>
                                     <ul className="blog__list">
-                                        <li><i className="icon-target"></i> Goal: <span>$30,000</span></li>
+                                        <li><i className="icon-target"></i> Goal: <span>$30,100</span></li>
                                         <li><i className="fa fa-line-chart"></i> Raised: <span>25,270</span></li>
                                     </ul>
                                     <Link href="/donate"><a className="theme-btn">donate now</a></Link>
