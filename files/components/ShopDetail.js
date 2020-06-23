@@ -67,114 +67,12 @@ const ShopDetail = () => {
                                             className="fa fa-download"></i> download
                                         </button>
                                     </div>
-                                    <div className="single-comment">
-                                        <div className="comment__boxed">
-                                            <h3 className="single__comment-title">Comments</h3>
-                                            <ul className="comments-list">
-                                                <li>
-                                                    <div className="comment">
-                                                        <div className="avatar-img">
-                                                            <img className="avatar__img" alt=""
-                                                                 src="/images/comment-avatar.jpg" />
-                                                        </div>
-                                                        <div className="comment-body">
-                                                            <div className="meta-data">
-                                                                <h4 className="comment__author">
-                                                                    David marks
-                                                                    <span className="comment__date">3 hours ago</span>
-                                                                </h4>
-                                                            </div>
-                                                            <div className="comment-content">
-                                                                <a className="reply__btn theme-btn" href="#">Reply</a>
-                                                                <p className="comment__text">
-                                                                    Sending love. My nephews Nick and Anthony Salaber
-                                                                    are your teammates,
-                                                                    so I know the caliber person you are.
-                                                                    Our whole family is sending our best to you and your
-                                                                    family.
-                                                                </p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div className="comment">
-                                                        <div className="avatar-img">
-                                                            <img className="avatar__img" alt=""
-                                                                 src="/images/comment-avatar2.jpg" />
-                                                        </div>
-                                                        <div className="comment-body">
-                                                            <div className="meta-data">
-                                                                <h4 className="comment__author">
-                                                                    Christine Eve
-                                                                    <span className="comment__date">4 hours ago</span>
-                                                                </h4>
-                                                            </div>
-                                                            <div className="comment-content">
-                                                                <a className="reply__btn theme-btn" href="#">Reply</a>
-                                                                <p className="comment__text">
-                                                                    You're a champ. Your in my thoughts and prayers
-                                                                    every day.
-                                                                    You're the best teammate a bloke could ask for and
-                                                                    we're going to
-                                                                    return the favour my being
-                                                                    there for you every step along this journey. Stay
-                                                                    strong
-                                                                </p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div className="comment__form form-shared">
-                                            <h3 className="single__comment-title">Leave a Comment</h3>
-                                            <form action="#">
-                                                <div className="row">
-                                                    <div className="col-lg-6 col-sm-6">
-                                                        <div className="form-group">
-                                                            <input type="text" className="form-control"
-                                                                   placeholder="Full Name" />
-                                                        </div>
-                                                    </div>
-                                                    <div className="col-lg-6 col-sm-6">
-                                                        <div className="form-group">
-                                                            <input type="email" className="form-control"
-                                                                   placeholder="Email Address" />
-                                                        </div>
-                                                    </div>
-                                                    <div className="col-lg-12">
-                                                        <div className="form-group">
-                                                            <textarea className="textarea" name="message"
-                                                                      placeholder="Leave a Comment"></textarea>
-                                                        </div>
-                                                    </div>
-                                                    <div className="col-lg-12">
-                                                        <button className="theme-btn submit__btn">submit now</button>
-                                                    </div>
-                                                </div>
-                                            </form>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-4">
                         <div className="sidebar-shared">
-                            <div className="side-widget">
-                                <div className="author-box">
-                                    <div className="author__avatar">
-                                        <img src="/images/author-avatar.jpg" alt="" />
-                                    </div>
-                                    <div className="author__detail">
-                                        <span className="author__meta">created april 11, 2018</span>
-                                        <h4 className="author__title">Organizer: <a href="#">Jessica Smith</a></h4>
-                                        <ul className="author__list">
-                                            <li><i className="fa fa-tag"></i> Education</li>
-                                            <li><i className="fa fa-map-marker"></i> Wrightwood, Canada</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
                             <div className="side-widget">
                                 <h2 className="widget__title">Recent Donations</h2>
                                 <div className="author-box recent-donate-item">

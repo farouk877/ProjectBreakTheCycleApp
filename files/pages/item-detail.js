@@ -7,7 +7,7 @@ import ItemsDetail from "../components/ShopDetail";
 
 const ItemPage = () => {
     return (
-        <Layout pageTitle="Oxpitan | Causes Detail">
+        <Layout pageTitle="Oxpitan | Item Detail">
             <NavOne />
             <PageHeader title="Item Detail" />
             <ItemsDetail />
