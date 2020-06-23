@@ -20,7 +20,7 @@ const Shop = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-4 col-sm-6">
-                        <Link href="/causes-detail">
+                        <Link href="/item-detail">
                             <img src="/images/gallery-img7.jpg" alt="" />
                         </Link>
                     </div>
