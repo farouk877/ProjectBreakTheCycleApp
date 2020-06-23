@@ -20,7 +20,6 @@ import ExamplePaypal from '../components/ExamplePaypal';
 const HomePage = () => {
     return (
         <Layout pageTitle="Project Break The Cycle - Sustainably Ending Poverty">
-          <ExamplePaypal />
           <NavOne />
           <SliderOne />
           <EntryArea />
@@ -28,12 +27,8 @@ const HomePage = () => {
           <HiwArea />
           <MixerArea />
           <CausesArea />
-          <ClientsLogo />
           <HelpingArea />
-          <TeamArea />
           <CallToAction />
-          <BlogHome />
-          <Map />
           <CallToActionTwo />
           <Footer />
         </Layout>

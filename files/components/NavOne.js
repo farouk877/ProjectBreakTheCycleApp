@@ -76,12 +76,7 @@ class NavOne extends Component {
                                             <div className="navigation-top">
                                                 <nav className="main-navigation">
                                                     <ul>
-                                                        <li className="active"><Link href="/"><a>Home</a></Link>
-                                                            <ul className="dropdown-menu-item">
-                                                                <li><Link href="/"><a>Home 1</a></Link></li>
-                                                                <li><Link href="/index2"><a>Home 2</a></Link></li>
-                                                            </ul>
-                                                        </li>
+                                                        <li className="active"><Link href="/"><a>Home</a></Link></li>
                                                         <li><a href="#">causes</a>
                                                             <ul className="dropdown-menu-item">
                                                                 <li><Link href="/causes"><a>causes</a></Link></li>
@@ -89,28 +84,8 @@ class NavOne extends Component {
                                                                 <li><Link href="/donate"><a>donate now</a></Link></li>
                                                             </ul>
                                                         </li>
-                                                        <li><a href="#">events</a>
-                                                            <ul className="dropdown-menu-item">
-                                                                <li><Link href="/events"><a>events</a></Link></li>
-                                                                <li><Link href="/events-detail"><a>events detail</a></Link></li>
-                                                            </ul>
-                                                        </li>
-                                                        <li><a href="#">news</a>
-                                                            <ul className="dropdown-menu-item">
-                                                                <li><Link href="/news"><a>news</a></Link></li>
-                                                                <li><Link href="/single-news"><a>news detail</a></Link></li>
-                                                            </ul>
-                                                        </li>
-                                                        <li><a href="#">pages</a>
-                                                            <ul className="dropdown-menu-item">
-                                                                <li><Link href="/about"><a>about</a></Link></li>
-                                                                <li><Link href="/gallery"><a>gallery</a></Link></li>
-                                                                <li><Link href="/volunteer"><a>become a volunteer</a></Link></li>
-                                                                <li><Link href="/team"><a>our team</a></Link></li>
-                                                                <li><Link href="/sponsor"><a>sponsors</a></Link></li>
-                                                            </ul>
-                                                        </li>
-                                                        <li><Link href="/contact"><a>contact</a></Link></li>
+                                                        <li className="active"><Link href="/gallery"><a>shop</a></Link></li>
+                                                        <li className="active"><Link href="/contact"><a>contact</a></Link></li>
                                                     </ul>
                                                 </nav>
                                             </div>

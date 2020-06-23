@@ -9,7 +9,7 @@ import Map from "../components/Map";
 
 const ContactPage = () => {
     return (
-        <Layout pageTitle="Oxpitan | Contact">
+        <Layout pageTitle="PBTC | Contact">
             <NavOne />
             <PageHeader title="Contact" />
             <Contact />

@@ -7,9 +7,9 @@ import Gallery from "../components/Gallery";
 
 const GalleryPage = () => {
     return (
-        <Layout pageTitle="Oxpitan | Gallery">
+        <Layout pageTitle="PBTC | Shop">
             <NavOne />
-            <PageHeader title="Gallery" />
+            <PageHeader title="Shop" />
             <Gallery />
             <Footer />
         </Layout>
