@@ -20,11 +20,9 @@ const Shop = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-4 col-sm-6">
-                        <div className="gallery-item">
+                        <Link href="/causes-detail">
                             <img src="/images/gallery-img7.jpg" alt="" />
-                                <a href="images/gallery-img7.jpg" className="glightbox">
-                                <Link href="/donate"><a className="theme-btn">donate now</a></Link></a>
-                        </div>
+                        </Link>
                     </div>
                     <div className="col-lg-4 col-sm-6">
                         <div className="gallery-item">
