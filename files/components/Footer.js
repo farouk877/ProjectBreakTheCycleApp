@@ -34,40 +34,6 @@ class Footer extends Component {
         return (
             <div>
                 <section className="footer-area">
-                    <div className="newsletter-area">
-                        <div className="container">
-                            <div className="row">
-                                <div className="col-lg-6 mx-auto text-center">
-                                    <div className="section-heading footer-heading">
-                                        <div className="section-icon">
-                                            <img src="/images/section-icon.png" alt="section-icon" />
-                                        </div>
-                                        <h2 className="section__title text__white">Newsletter</h2>
-                                        <p className="section__meta">stay updated</p>
-                                    </div>
-                                    <div className="newsletter-form">
-                                        <div className="form-shared">
-                                            <form action="#">
-                                                <div className="row">
-                                                    <div className="col-lg-9">
-                                                        <div className="form-group">
-                                                            <input type="email" className="form-control"
-                                                                   placeholder="Email address" />
-                                                        </div>
-                                                    </div>
-                                                    <div className="col-lg-3">
-                                                        <button className="theme-btn submit__btn"
-                                                                type="submit">subscribe
-                                                        </button>
-                                                    </div>
-                                                </div>
-                                            </form>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                     <div className="footer-top">
                         <div className="container">
                             <div className="row footer-widget-wrap">
