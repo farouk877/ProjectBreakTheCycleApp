@@ -30,7 +30,6 @@ const SliderOne = () => {
                                     <div className="col-md-7">
                                         <div className="slider-heading">
                                             <h2 className="slider__title">Breaking the cycle of poverty, one child at a time</h2>
-                                            <a href="#" className="theme-btn">Learn More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -46,23 +45,6 @@ const SliderOne = () => {
                                     <div className="col-md-7">
                                         <div className="slider-heading">
                                             <h2 className="slider__title">Changing lives. Forever.</h2>
-                                            <a href="#" className="theme-btn">How We Do This</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="single-slide-item slide-bg3">
-                    <div className="slide-item-table">
-                        <div className="slide-item-tablecell">
-                            <div className="container">
-                                <div className="row">
-                                    <div className="col-md-7">
-                                        <div className="slider-heading">
-                                            <h2 className="slider__title">Identifying sustainable goals to end poverty.</h2>
-                                            <a href="#" className="theme-btn">Learn More</a>
                                         </div>
                                     </div>
                                 </div>
