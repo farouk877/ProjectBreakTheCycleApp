@@ -59,7 +59,7 @@ class NavOne extends Component {
                                         <div className="ostion-logo">
                                             <Link href="/">
                                                 <a>
-                                                    <img src="/images/logo.jpg" alt="PBTC" title="PBTC" />
+                                                    <img src="/images/logo_transparent_padding.png" alt="PBTC" title="PBTC" />
                                                 </a>
                                             </Link>
                                         </div>
@@ -78,11 +78,9 @@ class NavOne extends Component {
                                                     <ul>
                                                         <li className="active"><Link href="/"><a>Home</a></Link></li>
                                                         <li className="active"><Link href="/causes"><a>Causes</a></Link></li>
-                                                        <li className="active"><Link href="/donate"><a>Donate</a></Link></li>
-                                                        <li className="active"><Link href="/shop"><a>Shop</a></Link></li>
                                                         <li className="active"><Link href="/blog"><a>Updates</a></Link></li>
-
                                                         <li className="active"><Link href="/contact"><a>Contact</a></Link></li>
+                                                        <span className="header-btn ml-auto"><Link href="/shop"><a className="theme-btn">Shop</a></Link></span>
                                                     </ul>
                                                 </nav>
                                             </div>
@@ -95,13 +93,13 @@ class NavOne extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="side-nav-container">
+                    {/* <div className="side-nav-container">
                         <div className="humburger-menu">
                             <div className="humburger-menu-lines side-menu-close"></div>
                         </div>
                         <div className="side-menu-wrap">
                             <ul className="side-menu-ul">
-                                {/* Might need to change className for mobile compatiblity */}
+                                Might need to change className for mobile compatiblity
                                 <li className="active"><Link href="/"><a>Home</a></Link></li>
                                 <li className="active"><Link href="/causes"><a>Causes</a></Link></li>
                                 <li className="active"><Link href="/donate"><a>Donate</a></Link></li>
@@ -112,6 +110,39 @@ class NavOne extends Component {
                             </ul>
                             <div className="side-btn">
                                 <Link href="/donate"><a className="theme-btn">donate now</a></Link>
+                            </div>
+                        </div>
+                    </div> */}
+                    <div className="side-nav-container">
+                        <div className="humburger-menu">
+                            <div className="humburger-menu-lines side-menu-close"></div>
+                        </div>
+                        <div className="side-menu-wrap">
+                            <ul className="side-menu-ul">
+                                <li className="sidenav__item"><a href="/">Home</a></li>
+                                <li className="sidenav__item"><a href="/causes">Causes</a></li>
+                                <li className="sidenav__item"><a href="/blog">Updates</a></li>
+                                <li className="sidenav__item"><a href="/contact">Contact</a></li>
+                                <li className="sidenav__item"><Link href="/shop"><a className="theme-btn">Shop</a></Link></li>
+                                {/* <li className="sidenav__item"><a href="#">pages</a>
+                                    <span className="menu-plus-icon"></span>
+                                    <ul className="side-sub-menu">
+                                        <li><Link href="/about"><a>about</a></Link></li>
+                                        <li><Link href="/gallery"><a>gallery</a></Link></li>
+                                        <li><Link href="/volunteer"><a>become a volunteer</a></Link></li>
+                                        <li><Link href="/team"><a>our team</a></Link></li>
+                                        <li><Link href="/sponsor"><a>sponsors</a></Link></li>
+                                    </ul>
+                                </li> */}
+                            </ul>
+                            <ul className="side-social">
+                                <li><a href="https://facebook.com/projectbreakthecycle"><i className="fa fa-facebook"></i></a></li>
+                                <li><a href="https://instagram.com/projectbreakthecycle"><i className="fa fa-instagram"></i></a></li>
+                                <li><a href="#"><i className="fa fa-youtube-play"></i></a></li>
+                                <li><a href="#"><i className="fa fa-google-plus"></i></a></li>
+                            </ul>
+                            <div className="side-btn">
+                                <Link href="/donate"><a className="theme-btn">Donate Now</a></Link>
                             </div>
                         </div>
                     </div>

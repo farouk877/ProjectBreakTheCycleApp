@@ -358,7 +358,7 @@ a:hover {
     display: table;
     vertical-align: middle;
 }
-.header-area .header-top .ostion-top-wrap .ostion-logo a {
+.header-area .header-top .ostion-top-wrap .ostion-logo a img {
     height: 120px;
     display: table-cell;
     vertical-align: middle;
@@ -665,6 +665,7 @@ a:hover {
 }
 .header-area .side-nav-container .side-menu-wrap .side-menu-ul .sidenav__item {
     position: relative;
+    margin-left: 15px;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -682,7 +683,7 @@ a:hover {
     background-color: rgba(255, 255, 255, 0.12);
 }
 .header-area .side-nav-container .side-menu-wrap .side-menu-ul .sidenav__item a {
-    font-size: 16px;
+    font-size: 20px;
     color: #fff;
     display: block;
     text-transform: capitalize;
@@ -767,10 +768,10 @@ a:hover {
     padding-right: 0;
 }
 .header-area .side-nav-container .side-menu-wrap .side-social li a {
-    font-size: 14px;
+    font-size: 20px;
     background-color: #50bac3;
     color: #fff;
-    padding: 0 5px 0 12px;
+    padding: 0 5px 0 10px;
     line-height: 42px;
     position: relative;
     z-index: 1;
