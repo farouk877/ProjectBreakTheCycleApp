@@ -61,12 +61,7 @@ const ShopDetail = () => {
                                         when an unknown printer took a
                                         galley of type and scrambled it to make a type specimen book
                                     </p>
-                                    <div className="presentation-block">
-                                        <h3><i className="fa fa-file-pdf-o"></i> Our Presentation</h3>
-                                        <button className="theme-btn" type="button"><i
-                                            className="fa fa-download"></i> download
-                                        </button>
-                                    </div>
+        
                                 </div>
                             </div>
                         </div>
@@ -74,63 +69,10 @@ const ShopDetail = () => {
                     <div className="col-lg-4">
                         <div className="sidebar-shared">
                             <div className="side-widget">
-                                <h2 className="widget__title">Recent Donations</h2>
-                                <div className="author-box recent-donate-item">
-                                    <div className="author__avatar">
-                                        <img src="/images/author-avatar2.jpg" alt="" />
-                                    </div>
-                                    <div className="author__detail">
-                                        <span className="author__meta2">$20</span>
-                                        <h4 className="author__title author__title2">David
-                                            Marks <span>3 hours ago</span></h4>
-                                        <ul className="author__list">
-                                            <li>God bless you dear</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div className="author-box recent-donate-item">
-                                    <div className="author__avatar">
-                                        <img src="/images/author-avatar3.jpg" alt="" />
-                                    </div>
-                                    <div className="author__detail">
-                                        <span className="author__meta2">$35</span>
-                                        <h4 className="author__title author__title2">Jean
-                                            Jerome <span>10 hours ago</span></h4>
-                                        <ul className="author__list">
-                                            <li>My prayers are with you</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div className="author-box recent-donate-item">
-                                    <div className="author__avatar"></div>
-                                    <div className="author__detail">
-                                        <span className="author__meta2">$35</span>
-                                        <h4 className="author__title author__title2">Anonymous <span>20 hours ago</span>
-                                        </h4>
-                                    </div>
-                                </div>
-                                <div className="author-box recent-donate-item">
-                                    <div className="author__avatar">
-                                        <img src="/images/author-avatar4.jpg" alt="" />
-                                    </div>
-                                    <div className="author__detail">
-                                        <span className="author__meta2">$160</span>
-                                        <h4 className="author__title author__title2">Kistin Eve <span>1 day ago</span>
-                                        </h4>
-                                        <ul className="author__list">
-                                            <li>Wishing you blessings</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="side-widget">
                                 <h2 className="widget__title">Share Cause</h2>
                                 <div className="side-share-profile">
                                     <ul>
-                                        <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                                        <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i className="fa fa-pinterest"></i></a></li>
-                                        <li><a href="#"><i className="fa fa-instagram"></i></a></li>
+                                        <li><a href="https://www.instagram.com/projectbreakthecycle/?hl=en"><i className="fa fa-instagram"></i></a></li>
                                     </ul>
                                 </div>
                             </div>

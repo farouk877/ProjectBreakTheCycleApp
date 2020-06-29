@@ -7,7 +7,7 @@ import ItemsDetail from "../components/ShopDetail";
 
 const ItemPage = () => {
     return (
-        <Layout pageTitle="Oxpitan | Item Detail">
+        <Layout pageTitle="PBTC | Item Detail">
             <NavOne />
             <PageHeader title="Item Detail" />
             <ItemsDetail />

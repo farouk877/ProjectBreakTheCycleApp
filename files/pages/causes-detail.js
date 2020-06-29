@@ -7,7 +7,7 @@ import CausesDetail from "../components/CausesDetail";
 
 const CausesPage = () => {
     return (
-        <Layout pageTitle="Oxpitan | Causes Detail">
+        <Layout pageTitle="PBTC | Causes Detail">
             <NavOne />
             <PageHeader title="Causes Detail" />
             <CausesDetail />
