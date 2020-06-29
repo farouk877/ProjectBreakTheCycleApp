@@ -11,17 +11,19 @@ const Donate = () => {
                         <div className="donate-item">
                             <h3 className="donate__title">Enter Your Donation</h3>
                             <div className="form-shared">
+                                
                                 <form action="#">
                                     <div className="row">
                                         <div className="col-lg-12">
                                             <div className="yellow-form">
-                                                <input type="number" className="form-control" />
+                                                <input type="string" className="form-control" />
                                                     <span className="dollar-sign">$</span>
                                                     <span className="number-symble">.00</span>
                                             </div>
                                         </div>
                                     </div>
                                 </form>
+
                             </div>
                         </div>
 
