@@ -40,21 +40,10 @@ class Footer extends Component {
                                 <div className="col footer-item footer-item1">
                                     <h3 className="widget__title">about</h3>
                                     <ul className="foot__links">
-                                        <li><a href="#">causes</a></li>
-                                        <li><a href="#">about</a></li>
-                                        <li><a href="#">New Campaign</a></li>
-                                        <li><a href="#">Site Map</a></li>
-                                        <li><a href="#">Events</a></li>
-                                    </ul>
-                                </div>
-                                <div className="col footer-item footer-item2">
-                                    <h3 className="widget__title">explore</h3>
-                                    <ul className="foot__links">
-                                        <li><a href="#">Press Release</a></li>
-                                        <li><a href="#">contact</a></li>
-                                        <li><a href="#">Blog Posts</a></li>
-                                        <li><a href="#">Social Connect</a></li>
-                                        <li><a href="#">Help Topics</a></li>
+                                        <li><a href="/causes">Causes</a></li>
+                                        <li><a href="/">About</a></li>
+                                        <li><a href="/shop">Shop</a></li>
+
                                     </ul>
                                 </div>
                                 <div className="col footer-item footer-item3">
@@ -66,15 +55,6 @@ class Footer extends Component {
                                         <li><a href="#">Terms of Use</a></li>
                                     </ul>
                                 </div>
-                                <div className="col footer-item footer-item3">
-                                    <h3 className="widget__title">blog</h3>
-                                    <ul className="foot__links">
-                                        <li><a href="#">Care for All People</a></li>
-                                        <li><a href="#">Build school for kids</a></li>
-                                        <li><a href="#">Being Volunteer</a></li>
-                                        <li><a href="#">Raise fund to help</a></li>
-                                    </ul>
-                                </div>
                                 <div className="col footer-item footer-item4">
                                     <h3 className="widget__title">contact</h3>
                                     <ul className="contact__info">
@@ -84,10 +64,8 @@ class Footer extends Component {
                                     </ul>
                                     <div className="footer__social">
                                         <ul>
-                                            <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                                            <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-                                            <li><a href="#"><i className="fa fa-pinterest"></i></a></li>
-                                            <li><a href="#"><i className="fa fa-instagram"></i></a></li>
+                            
+                                            <li><a href="https://www.instagram.com/projectbreakthecycle/?hl=en"><i className="fa fa-instagram"></i></a></li>
                                         </ul>
                                     </div>
                                 </div>

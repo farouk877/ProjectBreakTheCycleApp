@@ -102,11 +102,13 @@ class NavOne extends Component {
                         <div className="side-menu-wrap">
                             <ul className="side-menu-ul">
                                 {/* Might need to change className for mobile compatiblity */}
-                                <li className="sidenav__item"><Link href="/"><a>Home</a></Link></li>
-                                <li className="sidenav__item"><Link href="/causes"><a>Causes</a></Link></li>
-                                <li className="sidenav__item"><Link href="/gallery"><a>Shop</a></Link></li>
-                                <li className="sidenav__item"><Link href="/contact"><a>Contact</a></Link></li>
-                                <li className="sidenav__item"><Link href="/contact"><a>contact</a></Link></li>
+                                <li className="active"><Link href="/"><a>Home</a></Link></li>
+                                <li className="active"><Link href="/causes"><a>Causes</a></Link></li>
+                                <li className="active"><Link href="/donate"><a>Donate</a></Link></li>
+                                <li className="active"><Link href="/shop"><a>Shop</a></Link></li>
+                                <li className="active"><Link href="/blog"><a>Updates</a></Link></li>
+
+                                <li className="active"><Link href="/contact"><a>Contact</a></Link></li>
                             </ul>
                             <div className="side-btn">
                                 <Link href="/donate"><a className="theme-btn">donate now</a></Link>
