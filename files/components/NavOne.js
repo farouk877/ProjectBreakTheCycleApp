@@ -59,7 +59,7 @@ class NavOne extends Component {
                                         <div className="ostion-logo">
                                             <Link href="/">
                                                 <a>
-                                                    <img src="/images/logo.png" alt="Oxpitan" title="Oxpitan" />
+                                                    <img src="/images/logo.jpg" alt="PBTC" title="PBTC" />
                                                 </a>
                                             </Link>
                                         </div>

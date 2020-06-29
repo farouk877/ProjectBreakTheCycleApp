@@ -23,7 +23,6 @@ const HomePage = () => {
           <NavOne />
           <SliderOne />
           <ServiceArea />
-          <HiwArea />
           <MixerArea />
           <CausesArea />
           <CallToAction />

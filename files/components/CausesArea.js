@@ -48,7 +48,7 @@ const CausesArea = () => {
                                 <div className="blog-item blog-item2">
                                     <div className="blog-img">
                                         <img src="/images/img2.jpg" alt="" />
-                                            <span className="blog__tag"><i className="fa fa-flash"></i> trending</span>
+                                            <span className="blog__tag"><i className="fa fa-flash"></i> Active</span>
                                     </div>
                                     <div id="bar2" className="barfiller">
                                         <div className="tipWrap">
@@ -70,32 +70,7 @@ const CausesArea = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4">
-                            <div className="blog-content">
-                                <div className="blog-item blog-item3">
-                                    <div className="blog-img">
-                                        <img src="/images/img3.jpg" alt="" />
-                                    </div>
-                                    <div id="bar3" className="barfiller">
-                                        <div className="tipWrap">
-                                            <span className="tip"></span>
-                                        </div>
-                                        <span className="fill" data-percentage="44"></span>
-                                    </div>
-                                    <div className="blog-inner-content">
-                                        <h3 className="blog__title"><a href="/causes-detail">Healthy Food for
-                                            All</a></h3>
-                                        <p className="blog__desc">Aliq is notm hendr erit a augue insu image pellen
-                                            tes.</p>
-                                        <ul className="blog__list">
-                                            <li><i className="icon-target"></i> Goal: <span>$30,000</span></li>
-                                            <li><i className="fa fa-line-chart"></i> Raised: <span>25,270</span></li>
-                                        </ul>
-                                        <a href="/donate" className="theme-btn">donate now</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
             </section>
