@@ -21,7 +21,7 @@ const ServiceArea = () => {
                             <div className="section-icon">
                                 <img src="/images/section-icon.png" alt="section-icon" />
                             </div>
-                            <h2 className="section__title">Who We Are</h2>
+                            <h2 className="section__title">Mission Statement</h2>
                             {/* <p className="section__meta">help us now</p> */}
                         </div>
                     </div>
@@ -52,7 +52,8 @@ const ServiceArea = () => {
                 <div className="row">
                     <div className="col-lg-12">
                         <div className="button-shared">
-                            <a href="/donate" className="theme-btn">Mission Statement</a>
+                            <a href="/donate" className="theme-btn">Donate</a>
+                            <a href="/shop" className="theme-btn">Shop</a>
                         </div>
                     </div>
                 </div>
