@@ -25,39 +25,14 @@ const Shop = () => {
                         </Link>
                     </div>
                     <div className="col-lg-4 col-sm-6">
-                        <div className="gallery-item">
-                            <img src="/images/gallery-img8.jpg" alt="" />
-                                <a href="images/gallery-img8.jpg" className="glightbox">
-                                    <span className="gallery-icon"></span></a>
-                        </div>
+                        <Link href="/item-detail">
+                            <img src="/images/gallery-img7.jpg" alt="" />
+                        </Link>
                     </div>
                     <div className="col-lg-4 col-sm-6">
-                        <div className="gallery-item">
-                            <img src="/images/gallery-img9.jpg" alt="" />
-                                <a href="images/gallery-img9.jpg" className="glightbox">
-                                    <span className="gallery-icon"></span></a>
-                        </div>
-                    </div>
-                    <div className="col-lg-4 col-sm-6">
-                        <div className="gallery-item">
-                            <img src="/images/gallery-img10.jpg" alt="" />
-                                <a href="images/gallery-img10.jpg" className="glightbox">
-                                    <span className="gallery-icon"></span></a>
-                        </div>
-                    </div>
-                    <div className="col-lg-4 col-sm-6">
-                        <div className="gallery-item">
-                            <img src="/images/gallery-img11.jpg" alt="" />
-                                <a href="images/gallery-img11.jpg" className="glightbox">
-                                    <span className="gallery-icon"></span></a>
-                        </div>
-                    </div>
-                    <div className="col-lg-4 col-sm-6">
-                        <div className="gallery-item">
-                            <img src="/images/gallery-img12.jpg" alt="" />
-                                <a href="images/gallery-img12.jpg" className="glightbox">
-                                    <span className="gallery-icon"></span></a>
-                        </div>
+                        <Link href="/item-detail">
+                            <img src="/images/gallery-img7.jpg" alt="" />
+                        </Link>
                     </div>
                 </div>
             </div>
