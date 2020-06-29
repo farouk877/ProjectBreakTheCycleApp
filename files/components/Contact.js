@@ -13,15 +13,10 @@ const Contact = () => {
                             <h2 className="section__title">Get in Touch With Us</h2>
                             <p className="section__meta">Write a message</p>
                             <p className="section__desc">
-                                Aliq is notm hendr erit a augue insu image pellen tes que id erat quis sollicitud.
-                                Lorem ipsum is simply free text dolor sit amet,
-                                consectetur adipiscing ullam blandit hendrerit faucibus suspendisse.
+                                This is where we will be allowing new artists to collobrate with the form
                             </p>
                             <ul className="section__list">
-                                <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i className="fa fa-pinterest"></i></a></li>
-                                <li><a href="#"><i className="fa fa-instagram"></i></a></li>
+                                <li><a href="https://www.instagram.com/projectbreakthecycle/?hl=en"><i className="fa fa-instagram"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -61,8 +56,7 @@ const Contact = () => {
                         <div className="contact-item contact-item1">
                             <h3 className="contact__title">About</h3>
                             <p className="contact__desc">
-                                Lorem ipsum is simply free text dolor sit
-                                amet, duise consectetur ullam blandit
+                                We are looking for artists and nonprofits to collobrate with us
                             </p>
                         </div>
                     </div>
