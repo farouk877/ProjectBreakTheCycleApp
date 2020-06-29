@@ -64,8 +64,8 @@ class NavOne extends Component {
                                             </Link>
                                         </div>
                                         <div className="header-btn ml-auto">
-                                            <Link href="/donate">
-                                                <a className="theme-btn">donate now</a>
+                                            <Link href="/shop">
+                                                <a className="theme-btn">Shop</a>
                                             </Link>
                                         </div>
                                     </div>
@@ -77,10 +77,11 @@ class NavOne extends Component {
                                                 <nav className="main-navigation">
                                                     <ul>
                                                         <li className="active"><Link href="/"><a>Home</a></Link></li>
+                                                        <li className="active"><Link href="/about"><a>About</a></Link></li>
                                                         <li className="active"><Link href="/causes"><a>Causes</a></Link></li>
                                                         <li className="active"><Link href="/blog"><a>Updates</a></Link></li>
                                                         <li className="active"><Link href="/contact"><a>Contact</a></Link></li>
-                                                        <span className="header-btn ml-auto"><Link href="/shop"><a className="theme-btn">Shop</a></Link></span>
+                                                        <span className="header-btn ml-auto"><Link href="/donate"><a className="theme-btn">Donate</a></Link></span>
                                                     </ul>
                                                 </nav>
                                             </div>
@@ -93,26 +94,6 @@ class NavOne extends Component {
                             </div>
                         </div>
                     </div>
-                    {/* <div className="side-nav-container">
-                        <div className="humburger-menu">
-                            <div className="humburger-menu-lines side-menu-close"></div>
-                        </div>
-                        <div className="side-menu-wrap">
-                            <ul className="side-menu-ul">
-                                Might need to change className for mobile compatiblity
-                                <li className="active"><Link href="/"><a>Home</a></Link></li>
-                                <li className="active"><Link href="/causes"><a>Causes</a></Link></li>
-                                <li className="active"><Link href="/donate"><a>Donate</a></Link></li>
-                                <li className="active"><Link href="/shop"><a>Shop</a></Link></li>
-                                <li className="active"><Link href="/blog"><a>Updates</a></Link></li>
-
-                                <li className="active"><Link href="/contact"><a>Contact</a></Link></li>
-                            </ul>
-                            <div className="side-btn">
-                                <Link href="/donate"><a className="theme-btn">donate now</a></Link>
-                            </div>
-                        </div>
-                    </div> */}
                     <div className="side-nav-container">
                         <div className="humburger-menu">
                             <div className="humburger-menu-lines side-menu-close"></div>
@@ -120,6 +101,7 @@ class NavOne extends Component {
                         <div className="side-menu-wrap">
                             <ul className="side-menu-ul">
                                 <li className="sidenav__item"><a href="/">Home</a></li>
+                                <li className="sidenav__item"><a href="/about">About</a></li>
                                 <li className="sidenav__item"><a href="/causes">Causes</a></li>
                                 <li className="sidenav__item"><a href="/blog">Updates</a></li>
                                 <li className="sidenav__item"><a href="/contact">Contact</a></li>

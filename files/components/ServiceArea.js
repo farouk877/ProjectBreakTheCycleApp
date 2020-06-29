@@ -36,11 +36,9 @@ const ServiceArea = () => {
                                 <div className="service-content">
                                     {/* <h4 className="service__title">hope</h4> */}
                                     <p className="service__desc" >
-                                        We're a group dedicated to ending the viscious cycle of poverty 
-                                        through sustainable actions! This includes, but is not limited to,
-                                        funding private education in developing countries, alieviating financial 
-                                        stressors such as funding meals, and establishing long-term resources
-                                        to put an end to generational poverty.
+                                        We are a 501(c)3 nonprofit organization aspiring to sustainably break the cycle of injustice by empowering proven, 
+                                        transparent, and relevant nonprofit organizations through creative fundraising partnerships. 
+                                        Visit our About page to learn more.
                                     </p>
                                 </div>
                                 
@@ -51,10 +49,7 @@ const ServiceArea = () => {
                 </div>
                 <div className="row">
                     <div className="col-lg-12">
-                        <div className="button-shared">
-                            <a href="/donate" className="theme-btn">Donate</a>
-                            <a href="/shop" className="theme-btn">Shop</a>
-                        </div>
+                            <a href="/about" className="theme-btn">About Us</a>
                     </div>
                 </div>
             </div>

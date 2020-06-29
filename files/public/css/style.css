@@ -922,10 +922,10 @@ a:hover {
     transform: skew(-12deg,0deg);
 }
 .slider-area .slide-bg1 {
-    background-image: url("../images/slider1.jpg");
+    background-image: url("../images/htsw.jpg");
 }
 .slider-area .slide-bg2 {
-    background-image: url("../images/slider2.jpg");
+    background-image: url("../images/grouppic.jpg");
 }
 .slider-area .slide-bg3 {
     background-image: url("../images/slider3.jpg");
@@ -961,6 +961,8 @@ a:hover {
     color: #fff;
     font-weight: 900;
     margin-bottom: 47px;
+	-webkit-text-stroke: 1px #F8F8F8;
+	text-shadow: 0px 1px 4px #000000;
 }
 /*=== owl-nav ===*/
 .slider-area .homepage-slide1 .owl-dots {

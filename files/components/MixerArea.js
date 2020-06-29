@@ -30,9 +30,10 @@ class MixerArea extends Component {
                                     <div className="section-icon">
                                         <img src="/images/section-icon.png" alt="section-icon" />
                                     </div>
-                                    <h2 className="section__title text__white">Fundraising for the people and causes you
-                                        care about</h2>
-                                    <a href="/donate" className="theme-btn">start donation</a>
+                                    <h2 className="section__title text__white">100% of donations and profits to the people and causes you care about</h2>
+                                    <div className="button-shared">
+                                        <a href="/donate" className="theme-btn">Causes</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -47,51 +48,32 @@ class MixerArea extends Component {
                                     <div className="fun-item fun-item1">
                                         <i className="icon-charity"></i>
                                         <h3 className="counter">
-                                            <VisibilitySensor onChange={this.onVisibilityChange} offset={{top:10}} delayedCall><CountUp end={this.state.startCounter ? 785000 : 0} /></VisibilitySensor>
+                                            $ <VisibilitySensor onChange={this.onVisibilityChange} offset={{top:10}} delayedCall><CountUp end={this.state.startCounter ? 16631 : 0} /></VisibilitySensor>
                                         </h3>
-                                        <p className="fun__text">raised by 6,388 people in 7 days</p>
+                                        <p className="fun__text">raised for our <a href="#">first campaign</a></p>
                                     </div>
                                 </div>
                                 <div className="fun-content">
                                     <div className="fun-item fun-item2">
                                         <i className="icon-cancer"></i>
                                         <h3 className="counter">
-                                            <VisibilitySensor onChange={this.onVisibilityChange} offset={{top:10}} delayedCall><CountUp end={this.state.startCounter ? 63000 : 0} /></VisibilitySensor>
+                                            $ <VisibilitySensor onChange={this.onVisibilityChange} offset={{top:10}} delayedCall><CountUp end={this.state.startCounter ? 20000 : 0} /></VisibilitySensor>+
                                         </h3>
-                                        <p className="fun__text">volunteer are available to help you</p>
+                                        <p className="fun__text">raised to date</p>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-lg-6">
                                 <div className="fun-content-slide">
-
-                                    <Swiper>
-
                                         <div className="fun-slide-item">
                                             <div className="icon-quote">“</div>
                                             <h3 className="funslide__text">
-                                                Every man must decide whether he will walk in the light
-                                                of creative altruism or in the darkness of destructive selfishness.
+                                                Our rigorous campaign vetting process enables us 
+                                                to support nonprofits with transparent operations and sustainable goals.
                                             </h3>
-                                            <p className="funslide__name">Martin Luther King, jr</p>
+                                            <p className="funslide__name">Farouk Marhaba, Founder &amp; President</p>
                                         </div>
-                                        <div className="fun-slide-item">
-                                            <div className="icon-quote">“</div>
-                                            <h3 className="funslide__text">
-                                                Every man must decide whether he will walk in the light
-                                                of creative altruism or in the darkness of destructive selfishness.
-                                            </h3>
-                                            <p className="funslide__name">Martin Luther King, jr</p>
-                                        </div>
-                                        <div className="fun-slide-item">
-                                            <div className="icon-quote">“</div>
-                                            <h3 className="funslide__text">
-                                                Every man must decide whether he will walk in the light
-                                                of creative altruism or in the darkness of destructive selfishness.
-                                            </h3>
-                                            <p className="funslide__name">Martin Luther King, jr</p>
-                                        </div>
-                                    </Swiper>
+                                        
                                 </div>
                             </div>
                         </div>

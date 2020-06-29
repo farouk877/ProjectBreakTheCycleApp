@@ -31,7 +31,7 @@ const SliderOne = () => {
                                 <div className="row">
                                     <div className="col-md-7">
                                         <div className="slider-heading">
-                                            <h2 className="slider__title">Breaking the cycle of poverty, one child at a time</h2>
+                                            <h2 className="slider__title">Sustainbly breaking the cycle of injustice</h2>
                                         </div>
                                     </div>
                                 </div>
@@ -46,7 +46,7 @@ const SliderOne = () => {
                                 <div className="row">
                                     <div className="col-md-7">
                                         <div className="slider-heading">
-                                            <h2 className="slider__title">Changing lives. Forever.</h2>
+                                            <h2 className="slider__title">Creative fundraisers empowering nonprofits</h2>
                                         </div>
                                     </div>
                                 </div>
