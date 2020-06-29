@@ -5,6 +5,13 @@ import 'swiper/css/swiper.css';
 const SliderOne = () => {
     const [swiper, setSwiper] = useState(null);
 
+    var swiper2 = new Swiper('.swiper-container', {
+        autoplay: {
+          delay: 5,
+        },
+      });
+
+
     const goNext = () => {
         if (swiper !== null) {
           swiper.slideNext();
@@ -21,7 +28,7 @@ const SliderOne = () => {
         <section className="slider-area">
             <div className="homepage-slide1">
 
-                <Swiper getSwiper={setSwiper}>
+                <Swiper getSwiper={swiper2}>
                 <div className="single-slide-item slide-bg1">
                     <div className="slide-item-table">
                         <div className="slide-item-tablecell">

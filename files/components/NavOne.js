@@ -78,6 +78,7 @@ class NavOne extends Component {
                                                     <ul>
                                                         <li className="active"><Link href="/"><a>Home</a></Link></li>
                                                         <li className="active"><Link href="/causes"><a>Causes</a></Link></li>
+                                                        <li className="active"><Link href="/donate"><a>Donate</a></Link></li>
                                                         <li className="active"><Link href="/gallery"><a>Shop</a></Link></li>
                                                         <li className="active"><Link href="/contact"><a>Contact</a></Link></li>
                                                     </ul>

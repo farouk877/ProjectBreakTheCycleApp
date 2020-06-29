@@ -26,7 +26,7 @@ const HomePage = () => {
           <HiwArea />
           <MixerArea />
           <CausesArea />
-          <HelpingArea />
+
           <CallToAction />
           <CallToActionTwo />
           <Footer />
