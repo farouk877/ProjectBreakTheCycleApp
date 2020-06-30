@@ -922,10 +922,10 @@ a:hover {
     transform: skew(-12deg,0deg);
 }
 .slider-area .slide-bg1 {
-    background-image: url("../images/htsw.jpg");
+    background-image: url("../images/playinggames.jpg");
 }
 .slider-area .slide-bg2 {
-    background-image: url("../images/grouppic.jpg");
+    background-image: url("../images/franklingroup.jpg");
 }
 .slider-area .slide-bg3 {
     background-image: url("../images/slider3.jpg");
@@ -1702,7 +1702,7 @@ a:hover {
 .mixer-area {
     position: relative;
     z-index: 1;
-    background-image: url("../images/mixer-bg.jpg");
+    background-image: url("../images/multiplehoodies.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

@@ -15,6 +15,7 @@ import CallToAction from "../components/CallToAction";
 import BlogHome from "../components/BlogHome";
 import Map from "../components/Map";
 import CallToActionTwo from "../components/CallToActionTwo";
+
 import ExamplePaypal from '../components/ExamplePaypal';
 
 const HomePage = () => {

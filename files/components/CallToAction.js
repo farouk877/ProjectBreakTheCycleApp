@@ -10,9 +10,10 @@ const CallToAction = () => {
                             <div className="section-icon">
                                 <img src="/images/section-icon.png" alt="section-icon" />
                             </div>
-                            <h2 className="section__title text__white">Our fingerprints on the lives we touch never
-                                fade</h2>
-                            <a href="/donate" className="theme-btn">start donation</a>
+                            <h2 className="section__title text__white">
+                                We've reinventing shopping with a purpose. 100% profits always donated to the current campaign.
+                            </h2>
+                            <a href="/store" className="theme-btn">Shop</a>
                         </div>
                     </div>
                 </div>
