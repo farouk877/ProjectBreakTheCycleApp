@@ -80,7 +80,7 @@ class NavOne extends Component {
                                                         <li className="active"><Link href="/about"><a>About</a></Link>
                                                             <ul className="dropdown-menu-item">
                                                                 <li><Link href="/about"><a>About Us</a></Link></li>
-                                                                <li><Link href="/about"><a>Nonprofit Partners</a></Link></li>
+                                                                <li><Link href="/nonprofit-partners"><a>Nonprofit Partners</a></Link></li>
                                                                 <li><Link href="/about"><a>Corporate Relations</a></Link></li>
                                                             </ul>
                                                         </li>
