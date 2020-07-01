@@ -5,34 +5,30 @@ const AboutArea = () => {
         <section className="about-area">
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-12">
-                        <div className="about-large-img">
-                            <img src="/images/about-img.jpg" alt="" />
-                        </div>
-                    </div>
-                    <div className="col-lg-5">
-                        <div className="about-semi-img">
-                            <img src="/images/about-img2.jpg" alt="" />
-                        </div>
-                    </div>
+                    
                     <div className="col-lg-7">
                         <div className="about-heading">
                             <div className="section-heading">
                                 <div className="section-icon">
                                     <img src="/images/section-icon.png" alt="section-icon" />
                                 </div>
-                                <h2 className="section__title">Discover About Oxpitan</h2>
-                                <p className="section__meta">learn about non profit agency</p>
+                                <h2 className="section__title">Who We Are</h2>
+                                <p className="section__meta">why does project break the cycle exist?</p>
                                 <p className="section__desc">
-                                    Tincidunt elit magnis nulla facilisis sagittis maecenas. Sapien nunced amet
-                                    ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orcium
-                                    dolors sit amet elit magnis amet ultrices lorem ipsum is simply free
-                                    text purusrfed aliquet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                                    Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-                                    penatibus et magnis dis parturient montes, nascetur ridiculus.
-                                    penatibus et magnis dis parturient montes, nascetur ridiculus.
+                                    We are Project Break The Cycle, a 501(c)3 nonprofit organization aspiring 
+                                    to sustainably break the cycle of injustice by empowering proven, transparent, 
+                                    and relevant nonprofit organizations through creative fundraising mechanisms. 
+                                    In other words, we’re a nonprofit for nonprofits, helping them fundraise in 
+                                    ways they haven’t done before by tapping into unexplored revenue streams. We’ve 
+                                    established a community wanting to support transparent nonprofits while in 
+                                    return receiving amazing products to display their support. 
                                 </p>
                             </div>
+                        </div>
+                    </div>
+                    <div className="col-lg-5">
+                        <div className="about-semi-img">
+                            <img src="/images/about-img2.jpg" alt="" />
                         </div>
                     </div>
                 </div>

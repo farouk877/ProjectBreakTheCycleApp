@@ -3,6 +3,8 @@ import Layout from "../components/Layout";
 import NavOne from "../components/NavOne";
 import PageHeader from "../components/PageHeader";
 import AboutArea from "../components/AboutArea";
+import AboutArea2 from "../components/AboutArea2";
+
 import MixerAreaTwo from "../components/MixerAreaTwo";
 import TeamArea from "../components/TeamArea";
 import FaqArea from "../components/FaqArea";
@@ -15,7 +17,9 @@ const AboutPage = () => {
         <Layout pageTitle="Oxpitan | About">
             <NavOne />
             <PageHeader title="About" />
+            
             <AboutArea />
+            <AboutArea2 />
             <MixerAreaTwo />
             <TeamArea />
             <FaqArea />
