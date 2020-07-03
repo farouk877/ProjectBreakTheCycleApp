@@ -1584,6 +1584,7 @@ a:hover {
     margin-top: 52px;
     margin-bottom: 50px;
 }
+
 .service-area .service-wrap .service-item .service-item-inner .service-icon {
     display: inline-block;
     padding: 12px 15px;
@@ -1683,6 +1684,68 @@ a:hover {
     top: 14%;
     left: 0;
 }
+
+/*===================================
+    SERVICE AREA 10
+=====================================*/
+
+.service-area10 .service-wrap10 {
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.service-area10 .service-wrap10 .service-item10 .service-item-inner10 .service-icon10 {
+    display: inline-block;
+    padding: 12px 15px;
+    position: relative;
+    margin-bottom: 27px;
+    z-index: 1;
+}
+.service-area10 .service-wrap10 .service-item10 .service-item-inner10 .service-icon10 i {
+    font-size: 65px;
+    line-height: 60px;
+    color: #424242;
+}
+.service-area10 .service-wrap10 .service-item10 .service-item-inner10 .service-icon10:before,
+.service-area10 .service-wrap10 .service-item10 .service-item-inner10 .service-icon10:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 45px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: #e5f5f6;
+}
+.service-area10 .service-wrap10 .service-item10 .service-item-inner10 .service-icon10:after {
+    -webkit-transform-origin: bottom left;
+    transform-origin: bottom left;
+    -webkit-transform: skew(-15deg,0deg);
+    -moz-transform: skew(-15deg,0deg);
+    -ms-transform: skew(-15deg,0deg);
+    -o-transform: skew(-15deg,0deg);
+    transform: skew(-15deg,0deg);
+}
+
+.service-area10 .service-wrap10 .service-item10 .service-item-inner10 .service-content10 {
+    padding-right: 35px;
+    padding-left: 35px;
+    text-align: center;
+}
+.service-area10 .service-wrap10 .service-item10 .service-item-inner10 .service-content10 .service__title10 {
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 800;
+    text-transform: capitalize;
+    margin-bottom: 23px;
+}
+.service-area10 .service-wrap10 .service-item10 .service-item-inner10 .service-content10 .service__desc10 {
+    line-height: 29px;
+    display: inline-block;
+    max-width: 650px;
+}
+
 /*===================================
     VOLUNTEER AREA
 =====================================*/
@@ -3486,6 +3549,132 @@ a:hover {
 .gallery-area2 .gallery-item:after {
     left: -76px;
 }
+
+/*=============================
+   GALLERY AREA 10
+ =============================*/
+/* 
+.gallery-area10 .gallery-item {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+.gallery-area .gallery-wrap .gallery-item:after,
+.gallery-area10 .gallery-item:after {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: -87px;
+    background-color: rgba(134, 59, 174, 0.90);
+    -webkit-transform-origin: bottom left;
+    transform-origin: bottom left;
+    -webkit-transform: skew(-11deg,0deg);
+    -moz-transform: skew(-11deg,0deg);
+    -ms-transform: skew(-11deg,0deg);
+    -o-transform: skew(-11deg,0deg);
+    transform: skew(-11deg,0deg);
+    -webkit-transition: 0.3s ease-in;
+    -moz-transition: 0.3s ease-in;
+    -ms-transition: 0.3s ease-in;
+    -o-transition: 0.3s ease-in;
+    transition: 0.3s ease-in;
+    opacity: 0;
+    visibility: hidden;
+}
+.gallery-area .gallery-wrap .gallery-item:hover:after,
+.gallery-area10 .gallery-item:hover:after {
+    width: 100%;
+}
+.gallery-area .gallery-wrap .gallery-item:hover:after,
+.gallery-area .gallery-wrap .gallery-item:hover a,
+.gallery-area10 .gallery-item:hover:after,
+.gallery-area10 .gallery-item:hover a {
+    opacity: 1;
+    visibility: visible;
+}
+.gallery-area .gallery-wrap .gallery-item a,
+.gallery-area10 .gallery-item a {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    line-height: 40px;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: 0.3s ease-in;
+    -moz-transition: 0.3s ease-in;
+    -ms-transition: 0.3s ease-in;
+    -o-transition: 0.3s ease-in;
+    transition: 0.3s ease-in;
+}
+.gallery-area .gallery-wrap .gallery-item .gallery-icon,
+.gallery-area10 .gallery-item .gallery-icon {
+    position: relative;
+    width: 30px;
+    height: 2px;
+    display: inline-block;
+}
+.gallery-area .gallery-wrap .gallery-item .gallery-icon:before,
+.gallery-area .gallery-wrap .gallery-item .gallery-icon:after,
+.gallery-area10 .gallery-item .gallery-icon:before,
+.gallery-area10 .gallery-item .gallery-icon:after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+}
+.gallery-area .gallery-wrap .gallery-item .gallery-icon:after,
+.gallery-area10 .gallery-item .gallery-icon:after {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+} */
+.gallery-area10 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+/* .gallery-area10 .gallery-item {
+    margin-bottom: 50px;
+    position: relative;
+}
+.gallery-area10 .gallery-item img {
+    width: 100%;
+}
+.gallery-area10 .gallery-item:after {
+    left: -76px;
+} */
+
+/*=============================
+   GALLERY AREA
+ =============================*/
+.gallery-area2 {
+    padding-top: 120px;
+    padding-bottom: 90px;
+}
+.gallery-area2 .gallery-item {
+    margin-bottom: 30px;
+    position: relative;
+}
+.gallery-area2 .gallery-item img {
+    width: 100%;
+}
+.gallery-area2 .gallery-item:after {
+    left: -76px;
+}
+
 /*=============================
    PACKAGE AREA
  =============================*/
