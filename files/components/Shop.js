@@ -41,7 +41,7 @@ const Shop = () => {
         // storefrontAccessToken: process.env.SHOPIFY_storefrontAccessToken,
         });
         // console.log("hey")
-        // console.log(process.env.NODE_ENV)
+        // console.log(process.env.REACT_APP_SHOPIFY_API_KEY)
 
         ShopifyBuy.UI.onReady(client).then(function (ui) {
         ui.createComponent('collection', {
