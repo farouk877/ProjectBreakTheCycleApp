@@ -15,7 +15,7 @@ const Campaign = () => {
                                 </div>
                                 <div className="blog-inner-content">
                                     <h3 className="blog__title">
-                                        <Link href="/campaigns-detail">
+                                        <Link href="/farming-income-generation">
                                             <a href="https://yemenfoundation.org/">Income Generation Farming Project</a>
                                         </Link>
                                     </h3>
@@ -40,7 +40,7 @@ const Campaign = () => {
                                     <img src="/images/img1.jpg" alt="" />
                                 </div>
                                 <div className="blog-inner-content">
-                                    <h3 className="blog__title"><Link href="/campaigns-detail"><a>Orphan Children Scholarship Fund</a></Link>
+                                    <h3 className="blog__title"><Link href="/orphan-scholarship-fund"><a>Orphan Children Scholarship Fund</a></Link>
                                     </h3>
                                     <p className="blog__desc">
                                         Working with the Home of Tripoli for Social Welfare to support a scholarship pool funding 
@@ -62,8 +62,7 @@ const Campaign = () => {
                                     <img src="/images/img1.jpg" alt="" />
                                 </div>
                                 <div className="blog-inner-content">
-                                    <h3 className="blog__title"><Link href="/campaigns-detail"><a>Coming Soon...</a></Link>
-                                    </h3>
+                                    <h3 className="blog__title">Coming Soon...</h3>
                                 </div>
                             </div>
                         </div>
