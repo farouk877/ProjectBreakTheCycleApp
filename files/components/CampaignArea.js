@@ -17,12 +17,12 @@ const CampaignArea = () => {
                         </div>
                     </div>
                     <div className="row blog-content-wrap">
-                        <div className="col-lg-5">
+                        <div className="col-lg-6">
                             <div className="blog-content">
                                 <div className="blog-item blog-item2">
                                     <div className="blog-img">
                                         <img src="/images/img2.jpg" alt="" />
-                                            <span className="blog__tag"><i className="fa fa-flash"></i> Active</span>
+                                            <span className="blog__tag" style={{ color: 'green' }}><i className="fa fa-flash"></i> Active</span>
                                     </div>
                                     <div id="bar2" className="barfiller">
                                         <div className="tipWrap">
@@ -31,7 +31,7 @@ const CampaignArea = () => {
                                         <span className="fill" data-percentage="80"></span>
                                     </div>
                                     <div className="blog-inner-content">
-                                        <h3 className="blog__title"><a href="/causes-detail">Yemen Income Generation Project</a></h3>
+                                        <h3 className="blog__title"><a href="/campaign-detail">Yemen Income Generation Project</a></h3>
                                         <p className="blog__desc">
                                             Funding construction of small farms where families can not only reap benefits of
                                             animal produce, but also sell surplus back into local markets.
@@ -51,7 +51,7 @@ const CampaignArea = () => {
                                 <div className="blog-item blog-item1">
                                     <div className="blog-img">
                                         <img src="/images/playinggames_campaign.jpg" alt="" />
-                                        <span className="blog__tag"><i className="fa  fa-ellipsis-h"></i> Previous</span>
+                                        <span className="blog__tag" style={{ color: 'orange' }}><i className="fa fa-lock"></i> Previous</span>
                                     </div>
                                     <div id="bar1" className="barfiller">
                                         <div className="tipWrap">
@@ -60,7 +60,7 @@ const CampaignArea = () => {
                                         <span className="fill" data-percentage="23"></span>
                                     </div>
                                     <div className="blog-inner-content">
-                                        <h3 className="blog__title"><a href="/causes-detail">Lebanese Orphan Scholarship Fund</a>
+                                        <h3 className="blog__title"><a href="/campaign-detail">Lebanese Orphan Scholarship Fund</a>
                                         </h3>
                                         <p className="blog__desc">
                                             Supporting a scholarship pool funding private-school tuitions and after-school tutors 
