@@ -7,7 +7,7 @@ const AboutArea2 = () => {
                 <div className="row">
                     <div className="col-lg-5">
                         <div className="about-semi-img">
-                            <img src="/images/about-img2.jpg" alt="" />
+                            <img src="/images/bluehoodie.jpg" alt="" />
                         </div>
                     </div>
                     <div className="col-lg-7">
@@ -19,13 +19,13 @@ const AboutArea2 = () => {
                                 <h2 className="section__title">How We Do It</h2>
                                 <p className="section__meta">how does project break the cycle fundraise?</p>
                                 <p className="section__desc">
-                                    We are Project Break The Cycle, a 501(c)3 nonprofit organization aspiring 
-                                    to sustainably break the cycle of injustice by empowering proven, transparent, 
-                                    and relevant nonprofit organizations through creative fundraising mechanisms. 
-                                    In other words, we’re a nonprofit for nonprofits, helping them fundraise in 
-                                    ways they haven’t done before by tapping into unexplored revenue streams. We’ve 
-                                    established a community wanting to support transparent nonprofits while in 
-                                    return receiving amazing products to display their support. 
+                                    We do the leg work when it comes to creatively fundraising. Currently, 
+                                    Project Break The Cycle’s main fundraising streams are external merchandise 
+                                    sales and internal corporate matching programs. Over the duration of an 
+                                    active campaign, all donations and 100% of profits go towards that specific 
+                                    campaign. After a campaign concludes, donations are still accepted for it, 
+                                    although 100% of profits from merchandise sales will go to the now 
+                                    active campaign. 
                                 </p>
                             </div>
                         </div>

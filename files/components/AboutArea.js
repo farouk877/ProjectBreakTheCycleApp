@@ -28,7 +28,7 @@ const AboutArea = () => {
                     </div>
                     <div className="col-lg-5">
                         <div className="about-semi-img">
-                            <img src="/images/about-img2.jpg" alt="" />
+                            <img src="/images/logo_white_padding_400x349.png" alt="" />
                         </div>
                     </div>
                 </div>
