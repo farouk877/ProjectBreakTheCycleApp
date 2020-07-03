@@ -7,7 +7,7 @@ import Campaign from '../components/Campaign';
 
 const CampaignPage = () => {
     return (
-        <Layout pageTitle="PBTC | Campaign">
+        <Layout pageTitle="PBTC | Campaigns">
             <NavOne />
             <PageHeader title="Campaigns" />
             <Campaign />

@@ -6,7 +6,8 @@ import AboutArea from "../components/AboutArea";
 import AboutArea2 from "../components/AboutArea2";
 
 import MixerAreaTwo from "../components/MixerAreaTwo";
-import TeamArea from "../components/TeamArea";
+import CallToAction from "../components/CallToAction";
+import TeamArea2 from "../components/TeamArea2";
 import FaqArea from "../components/FaqArea";
 import ServiceArea from "../components/ServiceArea";
 import ClientsLogoTwo from "../components/ClientsLogoTwo";
@@ -20,11 +21,11 @@ const AboutPage = () => {
             
             <AboutArea />
             <AboutArea2 />
-            <MixerAreaTwo />
-            <TeamArea />
-            <FaqArea />
-            <ServiceArea />
-            <ClientsLogoTwo />
+            <CallToAction />
+            <TeamArea2 />
+            {/* <FaqArea /> */}
+            {/* <ServiceArea /> */}
+            {/* <ClientsLogoTwo /> */}
             <Footer />
         </Layout>
     );

@@ -81,10 +81,10 @@ class NavOne extends Component {
                                                             <ul className="dropdown-menu-item">
                                                                 <li><Link href="/about"><a>About Us</a></Link></li>
                                                                 <li><Link href="/nonprofit-partners"><a>Nonprofit Partners</a></Link></li>
-                                                                <li><Link href="/about"><a>Corporate Relations</a></Link></li>
+                                                                <li><Link href="/corporate-relations"><a>Corporate Relations</a></Link></li>
                                                             </ul>
                                                         </li>
-                                                        <li className="active"><Link href="/campaigns"><a>Campaign</a></Link></li>
+                                                        <li className="active"><Link href="/campaigns"><a>Campaigns</a></Link></li>
                                                         <li className="active"><Link href="/blog"><a>Updates</a></Link></li>
                                                         <li className="active"><Link href="/contact"><a>Contact</a></Link></li>
                                                         <span className="header-btn ml-auto"><Link href="/donate"><a className="theme-btn">Donate</a></Link></span>
@@ -111,10 +111,10 @@ class NavOne extends Component {
                                     <ul className="side-sub-menu">
                                         <li><Link href="/about"><a>About Us</a></Link></li>
                                         <li><Link href="/about"><a>Nonprofit Partners</a></Link></li>
-                                        <li><Link href="/about"><a>Corporate Relations</a></Link></li>
+                                        <li><Link href="/corporate-relations"><a>Corporate Relations</a></Link></li>
                                     </ul>
                                 </li>
-                                <li className="active"><a href="/campaigns">Campaign</a></li>
+                                <li className="sidenav__item"><a href="/campaigns">Campaigns</a></li>
                                 <li className="sidenav__item"><a href="/blog">Updates</a></li>
                                 <li className="sidenav__item"><a href="/contact">Contact</a></li>
                                 <li className="sidenav__item"><Link href="/shop"><a className="theme-btn">Shop</a></Link></li>
