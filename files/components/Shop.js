@@ -15,7 +15,7 @@ const Shop = () => {
                 // You can do that here...
             }
         });
-
+    
     var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
     if (window.ShopifyBuy) {
         if (window.ShopifyBuy.UI) {
@@ -212,30 +212,18 @@ const Shop = () => {
     }
 
     });
+
     return (
         <section className="gallery-area2">
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-4 col-sm-6">
-                        <Link href="/item-detail">
-                            <img src="/images/gallery-img7.jpg" alt="" />
-                        </Link>
-                    </div>
-                    <div className="col-lg-4 col-sm-6">
-                        <Link href="/item-detail">
-                            <img src="/images/gallery-img7.jpg" alt="" />
-                        </Link>
-                    </div>
-                    <div className="col-lg-4 col-sm-6">
-                        <Link href="/item-detail">
-                            <img src="/images/gallery-img7.jpg" alt="" />
-                        </Link>
-                    </div>
+ 
                     <div id='collection-component-1593741298916'></div>
 
                 </div>
             </div>
         </section>
+
     );
 };
 
