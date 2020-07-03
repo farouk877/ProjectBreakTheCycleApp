@@ -17,7 +17,7 @@ const CampaignArea = () => {
                         </div>
                     </div>
                     <div className="row blog-content-wrap">
-                        <div className="col-lg-6">
+                        <div className="col-lg-5">
                             <div className="blog-content">
                                 <div className="blog-item blog-item2">
                                     <div className="blog-img">
