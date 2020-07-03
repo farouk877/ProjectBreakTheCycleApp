@@ -50,7 +50,7 @@ class MixerArea extends Component {
                                         <h3 className="counter">
                                             $ <VisibilitySensor onChange={this.onVisibilityChange} offset={{top:10}} delayedCall><CountUp end={this.state.startCounter ? 16631 : 0} /></VisibilitySensor>
                                         </h3>
-                                        <p className="fun__text">raised for our <a href="#">first campaign</a></p>
+                                        <p className="fun__text">raised for our <a href="/campaigns">first campaign</a></p>
                                     </div>
                                 </div>
                                 <div className="fun-content">
@@ -67,10 +67,11 @@ class MixerArea extends Component {
                                 <div className="fun-content-slide">
                                         <div className="fun-slide-item">
                                             <div className="icon-quote">“</div>
-                                            <h3 className="funslide__text">
+                                            <h4 className="funslide__text">
                                                 Our rigorous campaign vetting process enables us 
                                                 to support nonprofits with transparent operations and sustainable goals.
-                                            </h3>
+                                            </h4>
+                                            <div className="icon-quote">“</div>
                                             <p className="funslide__name">Farouk Marhaba, Founder &amp; President</p>
                                         </div>
                                         
