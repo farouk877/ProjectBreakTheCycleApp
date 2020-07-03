@@ -37,7 +37,12 @@ const Shop = () => {
         var client = ShopifyBuy.buildClient({
         domain: 'projectbreakthecycle.myshopify.com',
         storefrontAccessToken: '1168428bec66998f624857e467cae6a4',
+            
+        // storefrontAccessToken: process.env.SHOPIFY_storefrontAccessToken,
         });
+        // console.log("hey")
+        // console.log(process.env.NODE_ENV)
+
         ShopifyBuy.UI.onReady(client).then(function (ui) {
         ui.createComponent('collection', {
             id: '202066722981',
