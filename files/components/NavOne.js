@@ -84,7 +84,7 @@ class NavOne extends Component {
                                                                 <li><Link href="/about"><a>Corporate Relations</a></Link></li>
                                                             </ul>
                                                         </li>
-                                                        <li className="active"><Link href="/causes"><a>Causes</a></Link></li>
+                                                        <li className="active"><Link href="/campaigns"><a>Campaign</a></Link></li>
                                                         <li className="active"><Link href="/blog"><a>Updates</a></Link></li>
                                                         <li className="active"><Link href="/contact"><a>Contact</a></Link></li>
                                                         <span className="header-btn ml-auto"><Link href="/donate"><a className="theme-btn">Donate</a></Link></span>
@@ -114,7 +114,7 @@ class NavOne extends Component {
                                         <li><Link href="/about"><a>Corporate Relations</a></Link></li>
                                     </ul>
                                 </li>
-                                <li className="sidenav__item"><a href="/causes">Causes</a></li>
+                                <li className="active"><a href="/campaigns">Campaign</a></li>
                                 <li className="sidenav__item"><a href="/blog">Updates</a></li>
                                 <li className="sidenav__item"><a href="/contact">Contact</a></li>
                                 <li className="sidenav__item"><Link href="/shop"><a className="theme-btn">Shop</a></Link></li>
