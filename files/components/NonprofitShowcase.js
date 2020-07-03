@@ -33,10 +33,9 @@ const NonprofitShowcase = () => {
                                 <img src="/images/team2.jpg" alt="team image" />
                                     <div className="team__img-links">
                                         <ul>
-                                            <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                                            <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-                                            <li><a href="#"><i className="fa fa-pinterest"></i></a></li>
-                                            <li><a href="#"><i className="fa fa-instagram"></i></a></li>
+                                            <li><a href="https://www.facebook.com/savealifeinyemen/"><i className="fa fa-facebook"></i></a></li>
+                                            <li><a href="https://www.instagram.com/yemenfoundation/"><i className="fa fa-instagram"></i></a></li>
+                                            <li><a href="https://yemenfoundation.org/"><i className="fa fa-link"></i></a></li>
                                         </ul>
                                     </div>
                             </div>
