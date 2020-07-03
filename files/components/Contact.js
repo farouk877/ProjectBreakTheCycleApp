@@ -2,21 +2,64 @@ import React, {Component} from 'react';
 import RGF from 'react-google-forms'
 
 class Contact extends Component {
+ 
     constructor(props) {
         super(props);
-        this.state = {value: ''};
+        this.state = {name: '', email: '', phoneNumber: '', msg: ''};
     
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
+        this.sendMessage = this.sendMessage.bind(this);
       }
     
       handleChange(event) {
-        this.setState({value: event.target.value});
+        this.setState({[event.target.name]: event.target.value})
       }
     
       handleSubmit(event) {
         // alert('Donation Amount: $' + this.state.value + ".00");
         event.preventDefault();
+        this.sendMessage()
+      }
+
+      sendMessage = () => {
+        const axios = require('axios');
+
+
+        const formURL = "https://docs.google.com/forms/u/0/d/e/1FAIpQLScym1ZaOZkkajIK6thNpnb_-KjyTdzEAhkY8NF9k3KYdlfoNg/formResponse"
+
+        const nameID = "entry.1415061761" 
+        const emailID = "entry.208702895"
+        const numberID = "entry.1100408356"
+        const msgID = "entry.1101411408"
+
+        const formData = new FormData()
+
+        const CORS_PROXY = 'https://cors-escape.herokuapp.com/'
+
+
+        formData.append(nameID, this.state.name)
+        formData.append(emailID, this.state.email)
+        formData.append(numberID, this.state.phoneNumber)
+        formData.append(msgID, this.state.msg)
+
+        axios.post(formURL, formData)
+            .then(() => {
+                this.setState({
+                msg: '',
+                email: '',
+                name: '',
+                phoneNumber: ''
+                })
+            }).catch(() => {
+                this.setState({
+                    msg: '',
+                    email: '',
+                    name: '',
+                    phoneNumber: ''
+                })
+            })
+       
       }
 
     render() {
@@ -42,29 +85,28 @@ class Contact extends Component {
                         <div className="col-lg-6">
                             <div className="form-shared">
                             
-                                <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScym1ZaOZkkajIK6thNpnb_-KjyTdzEAhkY8NF9k3KYdlfoNg/formResponse" method="post"
-                                    target="hidden_iframe" onsubmit="msgSubmitted=true;" autocomplete="on">
+                                <form onSubmit={this.handleSubmit}>
                                     <div className="row">
                                         <div className="col-lg-6 col-sm-6 form-group">
-                                            <input className="form-control" name="entry.1415061761" type="text" autocomplete="given-name" placeholder="Full Name" required/>
+                                            <input className="form-control" name = 'name' value = {this.state.name}  type="text" autoComplete="given-name" placeholder="Full Name" onChange = {this.handleChange} required/>
                                             {/* <input className="form-control" type="text" name="name" placeholder="Full Name" /> */}
                                         </div>
 
                                         <div className="col-lg-6 col-sm-6 form-group">
-                                            <input id="emailAddressMsgInput" name="entry.208702895" type="email" autocomplete="email" class="form-control" placeholder="Email address" required/>
+                                            <input id="emailAddressMsgInput" name = 'email' value = {this.state.email} type="email" autoComplete="email" className="form-control" placeholder="Email address" onChange = {this.handleChange} required/>
                                             {/* <input className="form-control" type="email" name="email"
                                                 placeholder="Email Address" /> */}
                                         </div>
 
                                         <div className="col-lg-12 form-group">
-                                            <input id="phoneNumberMsgInput" name="entry.1100408356" type="number" class="form-control" placeholder="Phone Number"/>
+                                            <input id="phoneNumberMsgInput" name = 'phoneNumber' value = {this.state.phoneNumber} type="number" className="form-control" placeholder="Phone Number" onChange = {this.handleChange}/>
 
                                             {/* <input className="form-control" type="number" name="phone"
                                                 placeholder="Phone Number" /> */}
                                         </div>
 
                                         <div className="col-lg-12 col-sm-12 form-group">
-                                            <textarea id="messageContentInput" name="entry.1101411408" type="text" class="form-control" placeholder="Write a Message" required></textarea>
+                                            <textarea id="messageContentInput" name = 'msg' value={this.state.msg} type="text" className="form-control" placeholder="Write a Message" onChange = {this.handleChange} required></textarea>
 
                                             {/* <textarea className="textarea" name="message"
                                                     placeholder="Write a Message"></textarea> */}
