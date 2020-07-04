@@ -10,8 +10,8 @@ const BlogHome = () => {
                             <div className="section-icon">
                                 <img src="/images/section-icon.png" alt="section-icon" />
                             </div>
-                            <h2 className="section__title">Recent Blog Posts</h2>
-                            <p className="section__meta">news and updates</p>
+                            <h2 className="section__title">Recent News</h2>
+                            <p className="section__meta">updates about what's going on with us and our partners</p>
                         </div>
                     </div>
                 </div>

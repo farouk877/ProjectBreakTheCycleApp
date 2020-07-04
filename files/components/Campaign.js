@@ -10,7 +10,7 @@ const Campaign = () => {
                         <div className="blog-content">
                             <div className="blog-item blog-item2">
                                 <div className="blog-img">
-                                    <img src="/images/img2.jpg" alt="" />
+                                    <img src="/images/incomegen.jpg" alt="" />
                                         <span className="blog__tag"><i className="fa fa-flash"></i> Active</span>
                                 </div>
                                 <div className="blog-inner-content">
@@ -37,7 +37,7 @@ const Campaign = () => {
                         <div className="blog-content">
                             <div className="blog-item blog-item1">
                                 <div className="blog-img">
-                                    <img src="/images/img1.jpg" alt="" />
+                                    <img src="/images/playinggames_campaign.jpg" alt="" />
                                 </div>
                                 <div className="blog-inner-content">
                                     <h3 className="blog__title"><Link href="/orphan-scholarship-fund"><a>Orphan Children Scholarship Fund</a></Link>

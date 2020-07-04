@@ -19,10 +19,10 @@ const NonprofitShowcase = () => {
                     <div className="col-lg-4 col-sm-6">
                         <div className="team-item team-item1">
                             <div className="team__img">
-                                <img src="/images/team.jpg" alt="team image" />    
+                                <img src="/images/htswoutside.jpg" alt="team image" />    
                             </div>
                             <div className="team__title">
-                                <h3 className="team__title-title"><a href="#">Home of Tripoli for<br/> Social Welfare</a></h3>
+                                <h3 className="team__title-title"><a href="/orphan-scholarship-fund">Home of Tripoli for<br/> Social Welfare</a></h3>
                                 <span className="team__title-meta">Orphanage in Tripoli, Lebanon</span>
                             </div>
                         </div>
@@ -30,7 +30,7 @@ const NonprofitShowcase = () => {
                     <div className="col-lg-4 col-sm-6">
                         <div className="team-item team-item2">
                             <div className="team__img">
-                                <img src="/images/team2.jpg" alt="team image" />
+                                <img src="/images/yrrf1.jpg" alt="team image" />
                                     <div className="team__img-links">
                                         <ul>
                                             <li><a href="https://www.facebook.com/savealifeinyemen/"><i className="fa fa-facebook"></i></a></li>
@@ -40,7 +40,7 @@ const NonprofitShowcase = () => {
                                     </div>
                             </div>
                             <div className="team__title">
-                                <h3 className="team__title-title"><a href="#">Yemen Relief and <br/> Reconstruction<br/> Foundation</a></h3>
+                                <h3 className="team__title-title"><a href="/farming-income-generation">Yemen Relief and <br/> Reconstruction<br/> Foundation</a></h3>
                                 <span className="team__title-meta">Yemen Aid</span>
                             </div>
                         </div>
@@ -48,7 +48,7 @@ const NonprofitShowcase = () => {
                     <div className="col-lg-4 col-sm-6">
                         <div className="team-item team-item3">
                             <div className="team__img">
-                                <img src="/images/team3.jpg" alt="team image" />
+                                <img src="/images/logo_white_padding_270x295.png" alt="team image" />
                             </div>
                             <div className="team__title">
                                 <h3 className="team__title-title"><a href="#">More Coming Soon...</a></h3>

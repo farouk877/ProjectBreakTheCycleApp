@@ -21,9 +21,6 @@ class NonprofitFaq extends Component {
                                 <h2 className="section__title">Questions?</h2>
                                 <p className="section__meta">frequently asked questions</p>
                             </div>
-                            <div className="faq-img-box">
-                                <img src="/images/faq-img.jpg" alt="" />
-                            </div>
                         </div>
                         <div className="col-lg-6">
                             <div className="accordion-container">

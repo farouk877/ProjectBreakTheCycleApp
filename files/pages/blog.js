@@ -4,6 +4,7 @@ import NavOne from "../components/NavOne";
 import PageHeader from "../components/PageHeader";
 import Footer from "../components/Footer";
 import BlogHome from "../components/BlogHome";
+import CallToAction from "../components/CallToAction";
 
 const NewsPage = () => {
     return (
@@ -11,6 +12,7 @@ const NewsPage = () => {
             <NavOne />
             <PageHeader title="Updates" />
             <BlogHome />
+            <CallToAction />
             <Footer />
         </Layout>
     );
