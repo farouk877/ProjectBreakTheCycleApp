@@ -22,7 +22,7 @@ const NonprofitShowcase = () => {
                                 <img src="/images/htswoutside.jpg" alt="team image" />    
                             </div>
                             <div className="team__title">
-                                <h3 className="team__title-title"><a href="#">Home of Tripoli for<br/> Social Welfare</a></h3>
+                                <h3 className="team__title-title"><a href="/orphan-scholarship-fund">Home of Tripoli for<br/> Social Welfare</a></h3>
                                 <span className="team__title-meta">Orphanage in Tripoli, Lebanon</span>
                             </div>
                         </div>
@@ -40,7 +40,7 @@ const NonprofitShowcase = () => {
                                     </div>
                             </div>
                             <div className="team__title">
-                                <h3 className="team__title-title"><a href="#">Yemen Relief and <br/> Reconstruction<br/> Foundation</a></h3>
+                                <h3 className="team__title-title"><a href="/farming-income-generation">Yemen Relief and <br/> Reconstruction<br/> Foundation</a></h3>
                                 <span className="team__title-meta">Yemen Aid</span>
                             </div>
                         </div>

@@ -21,8 +21,8 @@ const CampaignArea = () => {
                             <div className="blog-content">
                                 <div className="blog-item blog-item2">
                                     <div className="blog-img">
-                                        <img src="/images/img2.jpg" alt="" />
-                                            <span className="blog__tag" style={{ color: 'green' }}><i className="fa fa-flash"></i> Active</span>
+                                        <img src="/images/incomegen.jpg" alt="" />
+                                        <span className="blog__tag" style={{ color: 'green' }}><i className="fa fa-flash"></i> Active</span>
                                     </div>
                                     <div id="bar2" className="barfiller">
                                         <div className="tipWrap">
@@ -31,17 +31,17 @@ const CampaignArea = () => {
                                         <span className="fill" data-percentage="80"></span>
                                     </div>
                                     <div className="blog-inner-content">
-                                        <h3 className="blog__title"><a href="/campaign-detail">Yemen Income Generation Project</a></h3>
+                                        <h3 className="blog__title"><a href="/campaign-detail">Income Generation Farming Project</a></h3>
                                         <p className="blog__desc">
-                                            Funding construction of small farms where families can not only reap benefits of
-                                            animal produce, but also sell surplus back into local markets.
+                                            Working alongside the Yemen Relief and Reconstruction Foundation to fund construction 
+                                            of small farms where families can not only reap benefits of animal produce, but also 
+                                            sell surplus back into local markets.
                                         </p>
                                         <ul className="blog__list">
-                                            <li><i className="icon-target"></i> Goal: <span>$50,000</span></li>
+                                            <li><i className="icon-target"></i> Goal: <span>$18,000</span></li>
                                             <li><i className="fa fa-line-chart"></i> Raised: <span>$155</span></li>
                                         </ul>
-                                        <a href="/donate" className="theme-btn blog-item1">donate now</a>
-                                        <a href="/shop" className="theme-btn">shop</a>
+                                        <a href="/farming-income-generation" className="theme-btn blog-item1">learn more</a>
                                     </div>
                                 </div>
                             </div>
@@ -60,17 +60,18 @@ const CampaignArea = () => {
                                         <span className="fill" data-percentage="23"></span>
                                     </div>
                                     <div className="blog-inner-content">
-                                        <h3 className="blog__title"><a href="/campaign-detail">Lebanese Orphan Scholarship Fund</a>
+                                        <h3 className="blog__title"><a href="/campaign-detail">Orphan Children Scholarship Fund</a>
                                         </h3>
                                         <p className="blog__desc">
-                                            Supporting a scholarship pool funding private-school tuitions and after-school tutors 
-                                            for orphans in Tripoli, Lebanon.
+                                            Working with the Home of Tripoli for Social Welfare to support a scholarship pool 
+                                            funding private-school tuitions and after-school tutors for orphan children in 
+                                            Tripoli, Lebanon.
                                         </p>
                                         <ul className="blog__list">
                                             <li><i className="icon-target"></i> Goal: <span>$10,000</span></li>
                                             <li><i className="fa fa-line-chart"></i> Raised: <span>$16,631</span></li>
                                         </ul>
-                                        <a href="/donate" className="theme-btn">donate now</a>
+                                        <a href="/orphan-scholarship-fund" className="theme-btn">learn more</a>
                                     </div>
                                 </div>
                             </div>
