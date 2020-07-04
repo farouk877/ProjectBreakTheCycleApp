@@ -68,8 +68,7 @@ class MixerArea extends Component {
                                         <div className="fun-slide-item">
                                             <div className="icon-quote">“</div>
                                             <h4 className="funslide__text">
-                                                Our rigorous campaign vetting process enables us 
-                                                to support nonprofits with transparent operations and sustainable goals.
+                                                We support nonprofits with transparent operations and sustainable goals.
                                             </h4>
                                             <div className="icon-quote">“</div>
                                             <p className="funslide__name">Farouk Marhaba, Founder &amp; President</p>

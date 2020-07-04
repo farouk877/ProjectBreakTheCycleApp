@@ -119,7 +119,6 @@ class Contact extends Component {
                                 </form>
                             </div>
                         </div>
-                        {/* <RGF config={formConfig} formURL={"https://docs.google.com/forms/d/e/1FAIpQLScym1ZaOZkkajIK6thNpnb_-KjyTdzEAhkY8NF9k3KYdlfoNg/viewform?embedded=true"}/> */}
 
                     </div>
                     <div className="row contact-detail-action">

@@ -34,24 +34,43 @@ class Footer extends Component {
         return (
             <div>
                 <section className="footer-area">
+                <div className="newsletter-area">
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-lg-6 mx-auto text-center">
+                                    <div className="section-heading footer-heading">
+                                        <div className="section-icon">
+                                            <img src="/images/section-icon.png" alt="section-icon" />
+                                        </div>
+                                        <h2 className="section__title text__white">Newsletter</h2>
+                                        <p className="section__meta">stay updated</p>
+                                    </div>
+                                    <div className="newsletter-form">
+                                        <div className="form-shared">
+                                            <form action = "https://docs.google.com/forms/u/0/d/e/1FAIpQLSeJ0W6ev06uN-ApuCmN_gj_444efhe0M7ZZy5Ys9SPxTNfpIw/formResponse"  method="post" target="hidden_iframe">
+                                                <div className="row">
+                                                    <div className="col-lg-9">
+                                                        <div className="form-group">
+                                                            <input className="form-control" name = 'email' name="entry.704330290" type="text" placeholder="Sign Up Here" required/>
+                                                        </div>
+                                                    </div>
+                                                    <div className="col-lg-3">
+                                                        <button className="theme-btn submit__btn"
+                                                                type="submit">subscribe
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <div className="footer-top">
                         <div className="container">
                             <div className="row footer-widget-wrap">
-                                <div className="col footer-item footer-item3">
-                                    <h3 className="widget__title">Newsletter</h3>
-                                    <ul className="foot__links">
-                                        <li><a href="#">Podcasts</a></li>
-                                        <li><a href="#">Privacy Policy</a></li>
-                                        <li><a href="#">Videos</a></li>
-                                        <li><a href="#">Terms of Use</a></li>
-                                    </ul>
-                                    <div className="footer__social">
-                                        <ul>
-                                            <li><a href="https://instagram.com/projectbreakthecycle"><i className="fa fa-instagram"></i></a></li>
-                                            <li><a href="https://facebook.com/projectbreakthecycle"><i className="fa fa-facebook"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
                                 <div className="col footer-item footer-item1">
                                     <h3 className="widget__title">Quick Links</h3>
                                     <ul className="foot__links">
@@ -65,7 +84,7 @@ class Footer extends Component {
 
                                     </ul>
                                 </div>
-                                <div className="col footer-item footer-item4">
+                                <div className="col footer-item footer-item2">
                                     <h3 className="widget__title">Legal</h3>
                                     <ul className="contact__info">
                                         <li>Project Break The Cycle Inc</li>
