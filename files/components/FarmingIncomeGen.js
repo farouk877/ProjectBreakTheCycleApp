@@ -22,7 +22,7 @@ const FarmingIncomeGen = () => {
                                         </ul>
                                     </div>
                                     <div className="inner-causes-btn">
-                                        <Link href="/donate"><a className="theme-btn">donate now</a></Link>
+                                        <Link href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SKD88K8R387KQ&source=url"><a className="theme-btn">donate now</a></Link>
                                     </div>
                                     
                                 </div>

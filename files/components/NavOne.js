@@ -87,7 +87,7 @@ class NavOne extends Component {
                                                         <li className="active"><Link href="/campaigns"><a>Campaigns</a></Link></li>
                                                         <li className="active"><Link href="/blog"><a>Updates</a></Link></li>
                                                         <li className="active"><Link href="/contact"><a>Contact</a></Link></li>
-                                                        <span className="header-btn ml-auto"><Link href="/donate"><a className="theme-btn">Donate</a></Link></span>
+                                                        <span className="header-btn ml-auto"><Link href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SKD88K8R387KQ&source=url"><a className="theme-btn">Donate</a></Link></span>
                                                     </ul>
                                                 </nav>
                                             </div>
@@ -136,7 +136,7 @@ class NavOne extends Component {
                                 <li><a href="#"><i className="fa fa-google-plus"></i></a></li>
                             </ul>
                             <div className="side-btn">
-                                <Link href="/donate"><a className="theme-btn">Donate Now</a></Link>
+                                <Link href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SKD88K8R387KQ&source=url"><a className="theme-btn">Donate Now</a></Link>
                             </div>
                         </div>
                     </div>

@@ -80,7 +80,7 @@ class Footer extends Component {
                                         <li><a href="/blog">Updates</a></li>
                                         <li><a href="/contact">Contact</a></li>
                                         <li><a href="/shop">Shop</a></li>
-                                        <li><a href="/donate">Donate</a></li>
+                                        <li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SKD88K8R387KQ&source=url">Donate</a></li>
 
                                     </ul>
                                 </div>
