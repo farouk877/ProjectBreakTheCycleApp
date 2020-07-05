@@ -15,14 +15,14 @@ import Footer from "../components/Footer";
 
 const AboutPage = () => {
     return (
-        <Layout pageTitle="Oxpitan | About">
+        <Layout pageTitle="PBTC | About">
             <NavOne />
             <PageHeader title="About" />
             
             <AboutArea />
             <AboutArea2 />
             <CallToAction />
-            <TeamArea2 />
+            {/* <TeamArea2 /> */}
             {/* <FaqArea /> */}
             {/* <ServiceArea /> */}
             {/* <ClientsLogoTwo /> */}

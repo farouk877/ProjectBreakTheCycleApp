@@ -30,21 +30,10 @@ const OrphanScholarFund = () => {
                                 </div>
                                 <div className="blog-inner-content-2">
                                     <p className="causes__text">
-                                        There are many variations of passages of Lorem Ipsum available,
-                                        but the majority have suffered alteration in some form, by injected humour,
-                                        or randomised words which don't look even slightly believable.
-                                        If you are going to use a passage of Lorem Ipsum, you need to be sure there
-                                        isn't anything embarrassing hidden in the middle of text.
+                                    We understand that providing a healthy environment for children to grow up in is critical for their futures. Many children that are trapped in the cycle of poverty never have the opportunities to make sustainable changes in their lives. Working alongside the Home of Tripoli for Social Welfare, Project Break The Cycle wants to create a safe, sustainable environment for orphans to grow up in where they can eventually break free from generational poverty.
                                     </p>
                                     <p className="causes__text causes__text2">
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting
-                                        industry. Lorem Ipsum has been the industry's standard dummy text
-                                        ever since the 1500s, when an unknown printer took a galley of
-                                        type and scrambled it to make a type specimen book. It has survived not
-                                        only five centuries, but also the leap into electronic typesetting,
-                                        remaining essentially unchanged. It was popularised in the 1960s with
-                                        the release of Letraset sheets containing Lorem Ipsum passages,
-                                        and more recently with desktop publishing software like.
+                                    We realize that education is paramount for individuals to sustainably change their lives. With a better education, there are better job outlooks paying better salaries, thus allowing individuals to better support their families and break free from the poverty cycle. To reach our goal, we’ve partnered with the Home of Tripoli for Social Welfare based in Tripoli, Lebanon to organize a scholarship pool, where funds will be used for private school tuition, private after-school teachers, books, and other school supplies. Our goal is to provide a $10,000 education fund for HTSW. Since the Lebanese public education system is currently in shambles, small financial support in regards to education can have big impacts on these children. The costing details can be found below. Please support this project by donating directly to the campaign!
                                     </p>
                                     <div className="inner-causes-img-box row">
                                         <div className="col-lg-6">
@@ -59,10 +48,14 @@ const OrphanScholarFund = () => {
                                         </div>
                                     </div>
                                     <p className="causes__text">
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                        when an unknown printer took a
-                                        galley of type and scrambled it to make a type specimen book
+                                        <ul>
+                                            <li>Full-tuition scholarship for 1 school-year: $1,500</li>
+                                            <li>Full-tuition scholarship for 1 school-year: $1,500</li>
+                                            <li>Full-tuition scholarship for 1 school-year: $1,500</li>
+                                            <li>Full-tuition scholarship for 1 school-year: $1,500</li>
+                                            <li>Full-tuition scholarship for 1 school-year: $1,500</li>
+                                            <li>Private after-school teacher for 1 school-year: $2,500</li>
+                                        </ul>
                                     </p>    
                                 </div>
                             </div>

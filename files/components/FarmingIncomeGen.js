@@ -30,21 +30,10 @@ const FarmingIncomeGen = () => {
                                 </div>
                                 <div className="blog-inner-content-2">
                                     <p className="causes__text">
-                                        There are many variations of passages of Lorem Ipsum available,
-                                        but the majority have suffered alteration in some form, by injected humour,
-                                        or randomised words which don't look even slightly believable.
-                                        If you are going to use a passage of Lorem Ipsum, you need to be sure there
-                                        isn't anything embarrassing hidden in the middle of text.
+                                    Sustainability is a large facet of our mission. Breaking the cycle of poverty and injustice cannot happen with a one-time cash donation. Creating streams of income and resources that won’t deplete when we leave the region are the most effective ways of ensuring communities can help themselves well into the future. 
                                     </p>
                                     <p className="causes__text causes__text2">
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting
-                                        industry. Lorem Ipsum has been the industry's standard dummy text
-                                        ever since the 1500s, when an unknown printer took a galley of
-                                        type and scrambled it to make a type specimen book. It has survived not
-                                        only five centuries, but also the leap into electronic typesetting,
-                                        remaining essentially unchanged. It was popularised in the 1960s with
-                                        the release of Letraset sheets containing Lorem Ipsum passages,
-                                        and more recently with desktop publishing software like.
+                                    In a country of 29 million, over 17 million do not have access to enough food. This campaign aims to establish small farms for several families, where they can use animal produce for cooking meals and sell surplus in local markets. By supporting this project, you are directly impacting families for generations to come. This project would be facilitated through our partnership with the Yemen Relief and Reconstruction Fund, <Link href = "https://yemenfoundation.org/project/income-generation/">linked here</Link>. 
                                     </p>
                                     <div className="inner-causes-img-box row">
                                         <div className="col-lg-6">
@@ -59,11 +48,33 @@ const FarmingIncomeGen = () => {
                                         </div>
                                     </div>
                                     <p className="causes__text">
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                        when an unknown printer took a
-                                        galley of type and scrambled it to make a type specimen book
-                                    </p>    
+                                    Our goal is to raise $18,060 total to fund the purchase, delivery, and implementation of the required items to create three separate income generation projects. The first project will consist of purchasing 80 goats, feed, and veterinary services to be implemented in Abbs, Yemen. The second and third projects will consist of purchasing 550 egg-laying chickens with feed for a total of 1100 chickens. These two projects will be implemented in Saada, Yemen and Bani Alharth, Yemen. The costing breakdown will be listed below. Please support this project by donating directly or visiting our Shop, where 100% of profits are donated to this active campaign!
+                                    </p> 
+
+                                    <div>
+                                    <ul>
+
+                                        <li>80 goats - $8,000</li> 
+                                        <li>40 bags of feed - $400</li>
+                                        <li>Purchase goats/travel - $200</li>
+                                        <li>Veterinarian - $200</li>
+                                        <li>Distribution cost - $160</li>
+                                        <li>Travel to Hajja and back - $200</li>
+                                        <li>Transport of goats - $600</li>
+                                        <li>Hotel in Hajja - $100</li>
+                                        <li>Purchase and distribute chickens (550) - $4000</li>
+                                        <li>Chicken feed - $100</li>
+                                        <li>Purchase and distribute chickens (550) - $4000</li>
+                                        <li>Chicken feed - $100</li>
+
+                                    </ul>
+                                    </div>
+                                    <div>
+                                    <p className = 'causes_text'>
+                                        Further information can be found here: <Link href = "https://yemenfoundation.org/project/income-generation/">https://yemenfoundation.org/project/income-generation/</Link>
+                                    </p>
+                                    </div>
+
                                 </div>
                             </div>
                         </div>
@@ -76,8 +87,6 @@ const FarmingIncomeGen = () => {
                                     <ul>
                                         <li><a href="#"><i className="fa fa-instagram"></i></a></li>
                                         <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                                        <li><a href="#"><i className="fa fa-link"></i></a></li>
                                     </ul>
                                 </div>
                             </div>

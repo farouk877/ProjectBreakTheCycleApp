@@ -65,6 +65,17 @@ class FaqAreaCorpRel extends Component {
                                         </p>
                                     </div>
                                 </div>
+
+                                <div className="ac">
+                                    <h2 className="ac-q" tabIndex="0">And More!</h2>
+                                    <div className="ac-a">
+                                        <p className="accordion__content-desc">
+                                        We are always looking for new companies, whether big or small, to partner with. If you are interested in supporting Project Break The Cycle, please email info@projectbreakthecycle.com to get the conversation started!
+                                        </p>
+                                    </div>
+                                </div>
+
+
                             </div>
                         </div>
                     </div>

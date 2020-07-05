@@ -114,24 +114,18 @@ class NavOne extends Component {
                                 <li className="sidenav__item"><a href="/about">About</a>
                                     <ul className="side-sub-menu">
                                         <li><Link href="/about"><a>About Us</a></Link></li>
-                                        <li><Link href="/about"><a>Nonprofit Partners</a></Link></li>
+                                        <li><Link href="/nonprofit-partners"><a>Nonprofit Partners</a></Link></li>
                                         <li><Link href="/corporate-relations"><a>Corporate Relations</a></Link></li>
                                     </ul>
                                 </li>
                                 <li className="sidenav__item"><a href="/campaigns">Campaigns</a></li>
                                 <li className="sidenav__item"><a href="/blog">Updates</a></li>
-                                <li className="sidenav__item"><a href="/contact">Contact</a></li>
-                                <li className="sidenav__item"><Link href="/shop"><a className="theme-btn">Shop</a></Link></li>
-                                {/* <li className="sidenav__item"><a href="#">pages</a>
-                                    <span className="menu-plus-icon"></span>
-                                    <ul className="side-sub-menu">
-                                        <li><Link href="/about"><a>about</a></Link></li>
-                                        <li><Link href="/gallery"><a>gallery</a></Link></li>
-                                        <li><Link href="/volunteer"><a>become a volunteer</a></Link></li>
-                                        <li><Link href="/team"><a>our team</a></Link></li>
-                                        <li><Link href="/sponsor"><a>sponsors</a></Link></li>
+                                <li className="sidenav__item"><a href="/contact">Contact</a>
+                                <ul className="side-sub-menu">
+                                        <li><Link href="/artist"><a>Artists</a></Link></li>
                                     </ul>
-                                </li> */}
+                                </li>
+                                <li className="sidenav__item"><Link href="/shop"><a className="theme-btn">Shop</a></Link></li>
                             </ul>
                             <ul className="side-social">
                                 <li><a href="https://facebook.com/projectbreakthecycle"><i className="fa fa-facebook"></i></a></li>

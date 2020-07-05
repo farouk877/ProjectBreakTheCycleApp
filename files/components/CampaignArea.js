@@ -33,8 +33,8 @@ const CampaignArea = () => {
                                     <div className="blog-inner-content">
                                         <h3 className="blog__title"><a href="/campaign-detail">Income Generation Farming Project</a></h3>
                                         <p className="blog__desc">
-                                            Working with the Yemen Relief and Reconstruction Foundation to fund construction 
-                                            of farms where families can reap benefits of animal produce and sell surplus back into local markets.
+                                        Working with the Yemen Relief and Reconstruction Foundation to fund construction 
+                                        of farms where families can reap benefits of animal produce and sell surplus back into local markets.
                                         </p>
                                         <ul className="blog__list">
                                             <li><i className="icon-target"></i> Goal: <span>$18,000</span></li>
