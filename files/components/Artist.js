@@ -112,7 +112,6 @@ class Artist extends Component {
                                         <div className="col-lg-12 col-sm-12 form-group">
                                             <textarea id="messageContentInput" name = 'msg' value={this.state.msg} type="text" className="form-control" placeholder="[Optional] Do you have a portfolio or any previous work? Provide a Link!" onChange = {this.handleChange} required></textarea>
                                         </div>
-
                                         <div className="col-lg-12 col-sm-12">
                                             <button className="theme-btn submit__btn" type="submit">Send Message</button>
                                         </div>
