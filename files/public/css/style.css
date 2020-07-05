@@ -1802,7 +1802,7 @@ a:hover {
     top: 0;
     margin-top: -236px;
     right: 0;
-    width: 413px;
+    width: 500px;
     height: 698px;
     background-color: #5f9ad1;
     z-index: -1;
@@ -1811,7 +1811,7 @@ a:hover {
     border-bottom: 2px solid #f2f0ec;
     margin-right: 117px;
     position: relative;
-    padding-left: 104px;
+    padding-left: 105px;
     margin-bottom: 50px;
     padding-bottom: 56px;
 }
@@ -1840,8 +1840,8 @@ a:hover {
 .mixer-area2 .fun-content-slide {
     background-color: #5f9ad1;
     margin-top: -344px;
-    padding: 115px 0 100px 118px;
-    position: relative;
+    padding: 115px 0 100px 100px;
+    position: absolute;
     z-index: 1;
 }
 .mixer-area2 .fun-content-slide .fun-slide-item {
@@ -2138,6 +2138,8 @@ a:hover {
 }
 .causes-area .blog-content-wrap .blog-content .blog-item {
     margin-bottom: 30px;
+    margin-left: 100px;
+    position: relative;
 }
 .causes-area .blog-content-wrap .blog-content .blog-item .blog-img {
     position: relative;
