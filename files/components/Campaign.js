@@ -11,7 +11,7 @@ const Campaign = () => {
                             <div className="blog-item blog-item2">
                                 <div className="blog-img">
                                     <img src="/images/incomegen.jpg" alt="" />
-                                        <span className="blog__tag"><i className="fa fa-flash"></i> Active</span>
+                                    <span className="blog__tag" style={{ color: '#33FF3B' }}><i className="fa fa-flash"></i> Active</span>
                                 </div>
                                 <div className="blog-inner-content">
                                     <h3 className="blog__title">
@@ -20,9 +20,8 @@ const Campaign = () => {
                                         </Link>
                                     </h3>
                                     <p className="blog__desc">
-                                        Working alongside the Yemen Relief and Reconstruction Foundation to fund construction 
-                                        of small farms where families can not only reap benefits of animal produce, but also 
-                                        sell surplus back into local markets.
+                                            Working with the Yemen Relief and Reconstruction Foundation to fund construction 
+                                            of farms where families can reap benefits of animal produce and sell surplus back into local markets.
                                     </p>
                                     <ul className="blog__list">
                                         <li><i className="icon-target"></i> Goal: <span>$18,000</span></li>
@@ -38,6 +37,7 @@ const Campaign = () => {
                             <div className="blog-item blog-item1">
                                 <div className="blog-img">
                                     <img src="/images/playinggames_campaign.jpg" alt="" />
+                                    <span className="blog__tag" style={{ color: 'orange' }}><i className="fa fa-lock"></i> Previous</span>
                                 </div>
                                 <div className="blog-inner-content">
                                     <h3 className="blog__title"><Link href="/orphan-scholarship-fund"><a>Orphan Children Scholarship Fund</a></Link>

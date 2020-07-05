@@ -10,6 +10,8 @@ const OrphanScholarFund = () => {
                         <div className="blog-content">
                             <div className="blog-item">
                                 <div className="blog-img">
+                                    <span className="blog__tag" style={{ color: 'orange' }}><i className="fa fa-lock"></i> Previous</span>
+
                                     <img src="/images/img12.jpg" alt="" />
                                 </div>
                                 <div className="blog-inner-content">

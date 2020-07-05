@@ -10,6 +10,8 @@ const FarmingIncomeGen = () => {
                         <div className="blog-content">
                             <div className="blog-item">
                                 <div className="blog-img">
+                                    <span className="blog__tag" style={{ color: '#33FF3B' }}><i className="fa fa-flash"></i> Active</span>
+
                                     <img src="/images/img12.jpg" alt="" />
                                 </div>
                                 <div className="blog-inner-content">
