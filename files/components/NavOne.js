@@ -86,7 +86,11 @@ class NavOne extends Component {
                                                         </li>
                                                         <li className="active"><Link href="/campaigns"><a>Campaigns</a></Link></li>
                                                         <li className="active"><Link href="/blog"><a>Updates</a></Link></li>
-                                                        <li className="active"><Link href="/contact"><a>Contact</a></Link></li>
+                                                        <li className="active"><Link href="/contact"><a>Contact</a></Link>
+                                                            <ul className="dropdown-menu-item">
+                                                                <li><Link href="/artist"><a>Artists</a></Link></li>
+                                                            </ul>
+                                                        </li>
                                                         <span className="header-btn ml-auto"><Link href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SKD88K8R387KQ&source=url"><a className="theme-btn">Donate</a></Link></span>
                                                     </ul>
                                                 </nav>
