@@ -72,16 +72,9 @@ class MixerArea extends Component {
                                             </h4>
                                             <div className="icon-quote">“</div>
                                             <p className="funslide__name">Farouk Marhaba, Founder &amp; President</p>
-                                        </div>
-                                        {/* <div className="fun-slide-item">
-                                            <div className="icon-quote">“</div>
-                                            <h3 className="funslide__text">
-                                                Every man must decide whether he will walk in the light
-                                                of creative altruism or in the darkness of destructive selfishness.
-                                            </h3>
-                                            <p className="funslide__name">Farouk Marhaba, Founder &amp; President</p>
-                                        </div> */}
-                                        
+                                        </div>  
+
+        
                                 </div>
                             </div>
                         </div>
