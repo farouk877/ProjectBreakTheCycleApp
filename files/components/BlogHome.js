@@ -11,7 +11,7 @@ const BlogHome = () => {
                                 <img src="/images/section-icon.png" alt="section-icon" />
                             </div>
                             <h2 className="section__title">Recent News</h2>
-                            <p className="section__meta">updates about what's going on with us and our partners</p>
+                            <p className="section__meta">updates about what's going on with us, our campaigns, and our partners</p>
                         </div>
                     </div>
                 </div>
@@ -19,22 +19,22 @@ const BlogHome = () => {
                     <div className="col-lg-6">
                         <div className="recent-item">
                             <div className="recent__img">
-                                <span className="meta__date-date">09 mar, 2019</span>
+                                <span className="meta__date-date">06 jul, 2020</span>
                                 <img src="/images/blog-img.jpg" alt="service-image" />
                             </div>
                             <div className="news__content">
-                                <h3 className="news__content-title"><a href="/single-news">A place where start new
-                                    life with peace</a></h3>
+                                <h3 className="news__content-title"><a href="/single-news">Our Official Relaunch</a></h3>
                                 <ul className="news__content-list">
-                                    <li className="news__content-active__dot"><a href="#">mike hardson</a></li>
-                                    <li><a href="#">3 comments</a></li>
+                                    <li>PBTC</li>
                                 </ul>
                                 <p className="news__content-text">
-                                    Aliq is notm hendr erit a augue insu image pellen tes que id erat quis
-                                    sollicitud. Lorem ipsum dolor sit amet,
-                                    consectetur adipiscing ullam blandit hendrerit faucibus suspendisse.
+                                    Project Break The Cycle is excited to announce our relaunch today! We’ve been 
+                                    doing a lot of behind-the-scenes work to establish organizational sustainability 
+                                    and clarify our mission, making it easier and more efficient to support the causes 
+                                    we all care about. Below, we will address key points about our organization, and 
+                                    some awesome changes that were made!
                                 </p>
-                                <a href="single-news" className="theme-btn">read more</a>
+                                <a href="/our-official-relaunch" className="theme-btn">read more</a>
                             </div>
                         </div>
                     </div>

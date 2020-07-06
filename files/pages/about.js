@@ -4,6 +4,7 @@ import NavOne from "../components/NavOne";
 import PageHeader from "../components/PageHeader";
 import AboutArea from "../components/AboutArea";
 import AboutArea2 from "../components/AboutArea2";
+import AboutArea3 from "../components/AboutArea3";
 
 import MixerAreaTwo from "../components/MixerAreaTwo";
 import CallToAction from "../components/CallToAction";
@@ -21,6 +22,7 @@ const AboutPage = () => {
             
             <AboutArea />
             <AboutArea2 />
+            <AboutArea3 />
             <CallToAction />
             {/* <TeamArea2 /> */}
             {/* <FaqArea /> */}

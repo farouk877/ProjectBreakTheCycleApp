@@ -11,7 +11,7 @@ const CallToAction = () => {
                                 <img src="/images/section-icon.png" alt="section-icon" />
                             </div>
                             <h2 className="section__title text__white">
-                                We've reinventing shopping with a purpose. 100% profits always donated to the current campaign.
+                                We're reinventing shopping with a purpose. 100% profits always donated to the current campaign.
                             </h2>
                             <a href="/store" className="theme-btn">Shop</a>
                         </div>
