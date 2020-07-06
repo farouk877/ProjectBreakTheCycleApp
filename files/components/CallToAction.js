@@ -13,7 +13,7 @@ const CallToAction = () => {
                             <h2 className="section__title text__white">
                                 We're reinventing shopping with a purpose. 100% profits always donated to the current campaign.
                             </h2>
-                            <a href="/store" className="theme-btn">Shop</a>
+                            <a href="/shop" className="theme-btn">Shop</a>
                         </div>
                     </div>
                 </div>
