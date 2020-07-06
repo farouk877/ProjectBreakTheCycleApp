@@ -36,17 +36,14 @@ const Layout = (props) => {
                 <link rel="stylesheet" href="/plugins/glightbox.min.css" />
                 <link rel="stylesheet" href="/css/style.css" />
                 <link rel="stylesheet" href="/css/responsive.css" />
-                <script
-                    async
-                    src={`https://www.googletagmanager.com/gtag/js?id=$UA-99305777-1`}
-                />
+                <script async src="https://www.googletagmanager.com/gtag/js?id=UA-99305777-1"></script>
                 <script
                     dangerouslySetInnerHTML={{
                     __html: `
                     window.dataLayer = window.dataLayer || [];
                     function gtag(){dataLayer.push(arguments);}
                     gtag('js', new Date());
-                    gtag('config', '$UA-99305777-1', {
+                    gtag('config', 'UA-99305777-1', {
                     page_path: window.location.pathname,
                     });
                 `,
