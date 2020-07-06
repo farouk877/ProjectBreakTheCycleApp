@@ -59,7 +59,7 @@ const Campaign = () => {
                         <div className="blog-content">
                             <div className="blog-item blog-item1">
                                 <div className="blog-img">
-                                    <img src="/images/img1.jpg" alt="" />
+                                    <img src="/images/logo_white_padding_370x317.png" alt="" />
                                 </div>
                                 <div className="blog-inner-content">
                                     <h3 className="blog__title">Coming Soon...</h3>

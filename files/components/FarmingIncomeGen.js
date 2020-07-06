@@ -10,9 +10,9 @@ const FarmingIncomeGen = () => {
                         <div className="blog-content">
                             <div className="blog-item">
                                 <div className="blog-img">
-                                    <span className="blog__tag" style={{ color: '#33FF3B' }}><i className="fa fa-flash"></i> Active</span>
+                                    <span className="blog__tag" style={{ color: '#008000' }}><i className="fa fa-flash"></i> Active</span>
 
-                                    <img src="/images/img12.jpg" alt="" />
+                                    <img src="/images/incomegen770x453.jpg" alt="" />
                                 </div>
                                 <div className="blog-inner-content">
                                     <div className="inner-causes-box">
@@ -35,7 +35,7 @@ const FarmingIncomeGen = () => {
                                     <p className="causes__text causes__text2">
                                     In a country of 29 million, over 17 million do not have access to enough food. This campaign aims to establish small farms for several families, where they can use animal produce for cooking meals and sell surplus in local markets. By supporting this project, you are directly impacting families for generations to come. This project would be facilitated through our partnership with the Yemen Relief and Reconstruction Fund, <Link href = "https://yemenfoundation.org/project/income-generation/">linked here</Link>. 
                                     </p>
-                                    <div className="inner-causes-img-box row">
+                                    {/* <div className="inner-causes-img-box row">
                                         <div className="col-lg-6">
                                             <div className="inner-causes-img-item inner-causes-img-item1">
                                                 <img src="/images/img13.jpg" alt="" />
@@ -46,7 +46,7 @@ const FarmingIncomeGen = () => {
                                                 <img src="/images/img14.jpg" alt="" />
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> */}
                                     <p className="causes__text">
                                     Our goal is to raise $18,060 total to fund the purchase, delivery, and implementation of the required items to create three separate income generation projects. The first project will consist of purchasing 80 goats, feed, and veterinary services to be implemented in Abbs, Yemen. The second and third projects will consist of purchasing 550 egg-laying chickens with feed for a total of 1100 chickens. These two projects will be implemented in Saada, Yemen and Bani Alharth, Yemen. The costing breakdown will be listed below. Please support this project by donating directly or visiting our Shop, where 100% of profits are donated to this active campaign!
                                     </p> 
@@ -54,20 +54,21 @@ const FarmingIncomeGen = () => {
                                     <div>
                                     <ul>
 
-                                        <li>80 goats - $8,000</li> 
-                                        <li>40 bags of feed - $400</li>
-                                        <li>Purchase goats/travel - $200</li>
-                                        <li>Veterinarian - $200</li>
-                                        <li>Distribution cost - $160</li>
-                                        <li>Travel to Hajja and back - $200</li>
-                                        <li>Transport of goats - $600</li>
-                                        <li>Hotel in Hajja - $100</li>
-                                        <li>Purchase and distribute chickens (550) - $4000</li>
-                                        <li>Chicken feed - $100</li>
-                                        <li>Purchase and distribute chickens (550) - $4000</li>
-                                        <li>Chicken feed - $100</li>
+                                        <li>80 goats: $8,000</li> 
+                                        <li>40 bags of feed: $400</li>
+                                        <li>Purchase goats/travel: $200</li>
+                                        <li>Veterinarian: $200</li>
+                                        <li>Distribution cost: $160</li>
+                                        <li>Travel to Hajja and back: $200</li>
+                                        <li>Transport of goats: $600</li>
+                                        <li>Hotel in Hajja: $100</li>
+                                        <li>Purchase and distribute chickens (550): $4000</li>
+                                        <li>Chicken feed: $100</li>
+                                        <li>Purchase and distribute chickens (550): $4000</li>
+                                        <li>Chicken feed: $100</li>
 
                                     </ul>
+                                    <br/>
                                     </div>
                                     <div>
                                     <p className = 'causes_text'>
@@ -85,8 +86,7 @@ const FarmingIncomeGen = () => {
                                 <h2 className="widget__title">Share Cause</h2>
                                 <div className="side-share-profile">
                                     <ul>
-                                        <li><a href="#"><i className="fa fa-instagram"></i></a></li>
-                                        <li><a href="#"><i className="fa fa-facebook"></i></a></li>
+                                        <li><a href="/farming-income-generation"><i className="fa fa-link"></i></a></li>
                                     </ul>
                                 </div>
                             </div>

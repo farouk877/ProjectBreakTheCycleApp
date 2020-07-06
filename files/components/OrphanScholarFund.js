@@ -12,7 +12,7 @@ const OrphanScholarFund = () => {
                                 <div className="blog-img">
                                     <span className="blog__tag" style={{ color: 'orange' }}><i className="fa fa-lock"></i> Previous</span>
 
-                                    <img src="/images/img12.jpg" alt="" />
+                                    <img src="/images/playingcards770x453.jpg" alt="" />
                                 </div>
                                 <div className="blog-inner-content">
                                     <div className="inner-causes-box">
@@ -35,7 +35,7 @@ const OrphanScholarFund = () => {
                                     <p className="causes__text causes__text2">
                                     We realize that education is paramount for individuals to sustainably change their lives. With a better education, there are better job outlooks paying better salaries, thus allowing individuals to better support their families and break free from the poverty cycle. To reach our goal, we’ve partnered with the Home of Tripoli for Social Welfare based in Tripoli, Lebanon to organize a scholarship pool, where funds will be used for private school tuition, private after-school teachers, books, and other school supplies. Our goal is to provide a $10,000 education fund for HTSW. Since the Lebanese public education system is currently in shambles, small financial support in regards to education can have big impacts on these children. The costing details can be found below. Please support this project by donating directly to the campaign!
                                     </p>
-                                    <div className="inner-causes-img-box row">
+                                    {/* <div className="inner-causes-img-box row">
                                         <div className="col-lg-6">
                                             <div className="inner-causes-img-item inner-causes-img-item1">
                                                 <img src="/images/img13.jpg" alt="" />
@@ -46,16 +46,17 @@ const OrphanScholarFund = () => {
                                                 <img src="/images/img14.jpg" alt="" />
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> */}
                                     <p className="causes__text">
                                         <ul>
-                                            <li>Full-tuition scholarship for 1 school-year: $1,500</li>
-                                            <li>Full-tuition scholarship for 1 school-year: $1,500</li>
-                                            <li>Full-tuition scholarship for 1 school-year: $1,500</li>
-                                            <li>Full-tuition scholarship for 1 school-year: $1,500</li>
-                                            <li>Full-tuition scholarship for 1 school-year: $1,500</li>
-                                            <li>Private after-school teacher for 1 school-year: $2,500</li>
+                                            <li>2x full-tuition scholarship for 1 grade-school-year: $7,466</li>
+                                            <li>2x after school private teacher (price per child): $667</li>
+                                            <li>2x school supplies (books, stationary, etc.): $667</li>
+                                            <li>2x school bag: $100</li>
+                                            <li>2x transportation fees: $933</li>
+                                            <li>2x miscellaneous items (snacks, uniforms, etc.): $167</li>
                                         </ul>
+                                        <br/>
                                     </p>    
                                 </div>
                             </div>
@@ -67,10 +68,10 @@ const OrphanScholarFund = () => {
                                 <h2 className="widget__title">Share Cause</h2>
                                 <div className="side-share-profile">
                                     <ul>
-                                        <li><a href="#"><i className="fa fa-instagram"></i></a></li>
+                                        {/* <li><a href="#"><i className="fa fa-instagram"></i></a></li>
                                         <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                                        <li><a href="#"><i className="fa fa-link"></i></a></li>
+                                        <li><a href="#"><i className="fa fa-twitter"></i></a></li> */}
+                                        <li><a href="/orphan-scholarship-fund"><i className="fa fa-link"></i></a></li>
                                     </ul>
                                 </div>
                             </div>

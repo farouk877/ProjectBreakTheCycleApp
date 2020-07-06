@@ -74,9 +74,9 @@ class Contact extends Component {
                                 </div>
                                 <h2 className="section__title">Get in Touch With Us</h2>
                                 <p className="section__meta">Write a message</p>
-                                <p className="section__desc">
+                                {/* <p className="section__desc">
                                     We would love to hear from regarding questions about our mission, where your money is going, or anything else you might want to know. We are also looking for indivduals that want to join the ambassadorship program, companies who would like to match our donations, or artists. 
-                                </p>
+                                </p> */}
                                 <ul className="section__list">
                                     <li><a href="https://www.instagram.com/projectbreakthecycle/?hl=en"><i className="fa fa-instagram"></i></a></li>
                                 </ul>
@@ -125,7 +125,7 @@ class Contact extends Component {
                     <div className="row contact-detail-action">
                         <div className="col-lg-4">
                             <div className="contact-item contact-item2">
-                                <h3 className="contact__title">Address</h3>
+                                <h3 className="contact__title">Location</h3>
                                 <p className="contact__desc">
                                       Bridgewater, NJ but serving the globe
                                 </p>
