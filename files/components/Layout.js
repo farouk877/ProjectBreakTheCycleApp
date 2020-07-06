@@ -1,6 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
-import { GA_TRACKING_ID } from '../pages/gtag';
+import { GA_TRACKING_ID } from '../util/gtag';
 
 
 const Layout = (props) => {

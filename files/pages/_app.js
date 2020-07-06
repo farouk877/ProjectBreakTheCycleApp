@@ -1,5 +1,5 @@
 import '../node_modules/react-modal-video/scss/modal-video.scss';
-import * as gtag from './gtag';
+import * as gtag from '../util/gtag';
 import { useEffect } from 'react';
 import Router from 'next/router';
 
