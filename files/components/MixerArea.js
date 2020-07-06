@@ -63,20 +63,20 @@ class MixerArea extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-6">
+                            {/* <div className="col-lg-6">
                                 <div className="fun-content-slide">
                                         <div className="fun-slide-item">
                                             <div className="icon-quote">“</div>
                                             <h4 className="funslide__text">
-                                                We support nonprofits with transparent operations and sustainable goals.
+                                                Our rigorous nonprofit vetting process gives our supporters peace of mind knowning
+                                                that their contributions are in good hands.
                                             </h4>
-                                            <div className="icon-quote">“</div>
                                             <p className="funslide__name">Farouk Marhaba, Founder &amp; President</p>
                                         </div>  
 
         
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </section>
