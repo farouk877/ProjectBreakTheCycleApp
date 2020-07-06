@@ -1,7 +1,24 @@
 import React from 'react';
 import Head from 'next/head';
+import { initGA, logPageView } from '../pages/analytics';
+
 
 const Layout = (props) => {
+
+        // if (!global.window.GA_INITIALIZED) {
+        //   initGA();
+        //   window.GA_INITIALIZED = true;
+        // }
+        // logPageView();
+
+        // if (global.window == null) {
+        //     logPageView();
+        // } else {
+        //     initGA();
+        //     window.GA_INITIALIZED = true;
+        //     logPageView();
+        // }
+      
 
     return (
         <div>
@@ -19,6 +36,23 @@ const Layout = (props) => {
                 <link rel="stylesheet" href="/plugins/glightbox.min.css" />
                 <link rel="stylesheet" href="/css/style.css" />
                 <link rel="stylesheet" href="/css/responsive.css" />
+                <script
+                    async
+                    src={`https://www.googletagmanager.com/gtag/js?id=$UA-99305777-1`}
+                />
+                <script
+                    dangerouslySetInnerHTML={{
+                    __html: `
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', '$UA-99305777-1', {
+                    page_path: window.location.pathname,
+                    });
+                `,
+                    }}
+                />
+                
 
             </Head>
 
