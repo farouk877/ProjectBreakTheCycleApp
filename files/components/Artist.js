@@ -5,7 +5,7 @@ class Artist extends Component {
  
     constructor(props) {
         super(props);
-        this.state = {name: '', email: '', phoneNumber: '', msg: ''};
+        this.state = {name: '', email: '', phoneNumber: '', msg: '', msg2: '', msg3:'', msg4:''};
     
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
@@ -32,6 +32,10 @@ class Artist extends Component {
         const emailID = "entry.1640447617"
         const numberID = "entry.297979220"
         const msgID = "entry.639437020"
+        const msg2ID = "entry.1002179803"
+        const msg3ID = "entry.1536260870"
+        const msg4ID = "entry.197585373"
+        // Add Radio buttons
 
         const formData = new FormData()
 
@@ -42,6 +46,10 @@ class Artist extends Component {
         formData.append(emailID, this.state.email)
         formData.append(numberID, this.state.phoneNumber)
         formData.append(msgID, this.state.msg)
+        formData.append(msg2ID, this.state.msg2)
+        formData.append(msg3ID, this.state.msg3)
+        formData.append(msg4ID, this.state.msg4)
+
 
         axios.post(formURL, formData)
             .then(() => {
@@ -49,14 +57,20 @@ class Artist extends Component {
                 msg: '',
                 email: '',
                 name: '',
-                phoneNumber: ''
+                phoneNumber: '',
+                msg2: '',
+                msg3: '',
+                msg4: ''
                 })
             }).catch(() => {
                 this.setState({
                     msg: '',
                     email: '',
                     name: '',
-                    phoneNumber: ''
+                    phoneNumber: '',
+                    msg2: '',
+                    msg3: '',
+                    msg4: ''
                 })
             })
        
@@ -93,25 +107,33 @@ class Artist extends Component {
                                     <div className="row">
                                         <div className="col-lg-6 col-sm-6 form-group">
                                             <input className="form-control" name = 'name' value = {this.state.name}  type="text" autoComplete="given-name" placeholder="Full Name" onChange = {this.handleChange} required/>
-                                            {/* <input className="form-control" type="text" name="name" placeholder="Full Name" /> */}
                                         </div>
 
                                         <div className="col-lg-6 col-sm-6 form-group">
                                             <input id="emailAddressMsgInput" name = 'email' value = {this.state.email} type="email" autoComplete="email" className="form-control" placeholder="Email address" onChange = {this.handleChange} required/>
-                                            {/* <input className="form-control" type="email" name="email"
-                                                placeholder="Email Address" /> */}
                                         </div>
 
                                         <div className="col-lg-12 form-group">
                                             <input id="phoneNumberMsgInput" name = 'phoneNumber' value = {this.state.phoneNumber} type="number" className="form-control" placeholder="Phone Number" onChange = {this.handleChange}/>
-
-                                            {/* <input className="form-control" type="number" name="phone"
-                                                placeholder="Phone Number" /> */}
                                         </div>
 
                                         <div className="col-lg-12 col-sm-12 form-group">
                                             <textarea id="messageContentInput" name = 'msg' value={this.state.msg} type="text" className="form-control" placeholder="[Optional] Do you have a portfolio or any previous work? Provide a Link!" onChange = {this.handleChange} required></textarea>
                                         </div>
+
+                                        <div className="col-lg-12 col-sm-12 form-group">
+                                            <textarea id="messageContentInput" name = 'msg2' value={this.state.msg2} type="text" className="form-control" placeholder="[Optional] Do you have any art social media accounts? Provide a Link!" onChange = {this.handleChange} required></textarea>
+                                        </div>
+
+                                        <div className="col-lg-12 col-sm-12 form-group">
+                                            <textarea id="messageContentInput" name = 'msg3' value={this.state.msg3} type="text" className="form-control" placeholder="[Optional] List any previous experience in clothing design." onChange = {this.handleChange} required></textarea>
+                                        </div>
+
+                                        <div className="col-lg-12 col-sm-12 form-group">
+                                            <textarea id="messageContentInput" name = 'msg4' value={this.state.msg4} type="text" className="form-control" placeholder="[Optional] Describe your design idea in 1-3 sentences." onChange = {this.handleChange} required></textarea>
+                                        </div>
+
+
                                         <div className="col-lg-12 col-sm-12">
                                             <button className="theme-btn submit__btn" type="submit">Send Message</button>
                                         </div>
