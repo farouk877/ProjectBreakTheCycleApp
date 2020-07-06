@@ -81,7 +81,7 @@ const OurOfficialRelaunchNews = () => {
  
                                         <div className="news-tag-item-right">
                                             <ul className="news-share">
-                                                <li><a href="https://www.instagram.com/projectbreakthecycle/?hl=en"><i className="fa fa-instagram"></i></a></li>
+                                                <li><a href="https://www.instagram.com/projectbreakthecycle"><i className="fa fa-instagram"></i></a></li>
                                             </ul>
                                         </div>
                                     </div>

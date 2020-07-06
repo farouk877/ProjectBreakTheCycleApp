@@ -43,31 +43,30 @@ const BlogHome = () => {
                             <ul className="third-recent-item">
                                 <li>
                                     <div className="recent__img">
-                                        <a href="/single-news"><img src="/images/blog-img2.jpg" alt="" /></a>
+                                        <a href="/summary-june-2020"><img src="/images/blog-img2.jpg" alt="" /></a>
                                     </div>
                                     <div className="recent__content">
-                                        <span>07 mar, 2019</span>
-                                        <h4><a href="single-news.html">Let’s together provide them a healthy food</a>
+                                        <span>01 jun, 2020</span>
+                                        <h4><a href="/summary-june-2020">Summary of Events: Jun 1, 2017 - Jun 1, 2020</a>
                                         </h4>
                                     </div>
                                 </li>
                                 <li>
                                     <div className="recent__img">
-                                        <a href="/single-news"><img src="images/blog-img3.jpg" alt="" /></a>
+                                        <a href="/stuffed-with-love-event"><img src="images/blog-img3.jpg" alt="" /></a>
                                     </div>
                                     <div className="recent__content">
-                                        <span>04 mar, 2019</span>
-                                        <h4><a href="/single-news">Building clean water system for poor</a></h4>
+                                        <span>12 may, 2017</span>
+                                        <h4><a href="/stuffed-with-love-event">Stuffed With Love Event</a></h4>
                                     </div>
                                 </li>
                                 <li>
                                     <div className="recent__img">
-                                        <a href="/single-news"><img src="/images/blog-img4.jpg" alt="" /></a>
+                                        <a href="/summary-march-2017"><img src="/images/blog-img4.jpg" alt="" /></a>
                                     </div>
                                     <div className="recent__content">
-                                        <span>30 feb, 2019</span>
-                                        <h4><a href="single-news.html">Become a volunteer you will feel the
-                                            benefits </a></h4>
+                                        <span>29 mar, 2017</span>
+                                        <h4><a href="/summary-march-2017">Summary of Events: Dec. 26, 2016 - Mar. 29, 2017</a></h4>
                                     </div>
                                 </li>
                             </ul>
