@@ -127,7 +127,13 @@ class Footer extends Component {
                                         <li><a href="/contact">Contact</a></li>
                                         <li><a href="/shop">Shop</a></li>
                                         <li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SKD88K8R387KQ&source=url">Donate</a></li>
-
+                                    </ul>
+                                    <ul className="side-social">
+                                        <li>
+                                            <a href="https://instagram.com/projectbreakthecycle"><i className="fa fa-instagram"></i></a>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                            <a href="https://facebook.com/projectbreakthecycle"><i className="fa fa-facebook"></i></a>
+                                        </li>
                                     </ul>
                                 </div>
                                 <div className="col footer-item footer-item2">
@@ -138,6 +144,7 @@ class Footer extends Component {
                                         <li>EIN: 81-4564351</li>
                                         <li>Bridgewater, NJ but serving the globe</li>
                                         <li><a href="mailto:info@projectbreakthecycle.com">info@projectbreakthecycle.com</a></li>
+                                        
                                     </ul>
                                 </div>
                             </div>
