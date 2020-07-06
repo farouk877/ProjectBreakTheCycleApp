@@ -50,7 +50,7 @@ class MixerArea extends Component {
                                         <h3 className="counter">
                                             $ <VisibilitySensor onChange={this.onVisibilityChange} offset={{top:10}} delayedCall><CountUp end={this.state.startCounter ? 16631 : 0} /></VisibilitySensor>
                                         </h3>
-                                        <p className="fun__text">raised for our <a href="/campaigns">first campaign</a></p>
+                                        <p className="fun__text">raised for our <a href="/orphan-scholarship-fund">first campaign</a></p>
                                     </div>
                                 </div>
                                 <div className="fun-content">
