@@ -31,7 +31,7 @@ const AboutArea3 = () => {
                     </div>
                     <div className="col-lg-5">
                         <div className="about-semi-img">
-                            <img src="/images/logo_white_padding_400x349.png" alt="" />
+                            <img src="/images/childrenthumbsup.jpg" alt="" />
                         </div>
                     </div>
                 </div>

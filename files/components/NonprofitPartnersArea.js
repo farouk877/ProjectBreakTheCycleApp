@@ -7,7 +7,7 @@ const NonprofitPartnersArea = () => {
                 <div className="row">
                     <div className="col-lg-5">
                         <div className="about-semi-img">
-                            <img src="/images/about-img2.jpg" alt="" />
+                            <img src="/images/htswoutside.jpg" alt="" />
                         </div>
                     </div>
                     <div className="col-lg-7">

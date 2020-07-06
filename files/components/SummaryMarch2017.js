@@ -9,8 +9,8 @@ const OurOfficialRelaunchNews = () => {
                         <div className="blog-content">
                             <div className="blog-item">
                                 <div className="blog-img">
-                                    <img src="/images/img20.jpg" alt="" />
-                                        <span className="blog__date">06 jul, 2020</span>
+                                    <img src="/images/htswstudying770x414.jpg" alt="" />
+                                        <span className="blog__date">29 mar, 2017</span>
                                 </div>
                                 <div className="blog-inner-content">
                                     <div className="inner-causes-box">

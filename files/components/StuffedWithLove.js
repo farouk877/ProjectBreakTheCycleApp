@@ -9,7 +9,7 @@ const StuffedWithLove = () => {
                         <div className="blog-content">
                             <div className="blog-item">
                                 <div className="blog-img">
-                                    <img src="/images/img20.jpg" alt="" />
+                                    <img src="/images/stuffedwithlove770x414.jpg" alt="" />
                                         <span className="blog__date">12 may, 2017</span>
                                 </div>
                                 <div className="blog-inner-content">

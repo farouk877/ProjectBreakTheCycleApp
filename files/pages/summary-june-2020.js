@@ -9,9 +9,9 @@ import SummaryJune2020 from '../components/SummaryJune2020';
 
 const SummaryJune2020Page = () => {
     return (
-        <Layout pageTitle="PBTC | Our Official Relaunch">
+        <Layout pageTitle="PBTC | Summary of Events: Jun 1, 2017 - Jun 1, 2020">
             <NavOne />
-            <PageHeader title="Our Official Relaunch" />
+            <PageHeader title="Summary of Events: Jun 1, 2017 - Jun 1, 2020" />
             <SummaryJune2020 />
             <Footer />
         </Layout>

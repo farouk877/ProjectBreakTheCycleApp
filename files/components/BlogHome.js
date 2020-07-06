@@ -20,10 +20,10 @@ const BlogHome = () => {
                         <div className="recent-item">
                             <div className="recent__img">
                                 <span className="meta__date-date">06 jul, 2020</span>
-                                <img src="/images/blog-img.jpg" alt="service-image" />
+                                <img src="/images/logo_white_padding_570x354.png" alt="service-image" />
                             </div>
                             <div className="news__content">
-                                <h3 className="news__content-title"><a href="/single-news">Our Official Relaunch</a></h3>
+                                <h3 className="news__content-title"><a href="/our-official-relaunch">Our Official Relaunch</a></h3>
                                 <ul className="news__content-list">
                                     <li>PBTC</li>
                                 </ul>
@@ -43,7 +43,7 @@ const BlogHome = () => {
                             <ul className="third-recent-item">
                                 <li>
                                     <div className="recent__img">
-                                        <a href="/summary-june-2020"><img src="/images/blog-img2.jpg" alt="" /></a>
+                                        <a href="/summary-june-2020"><img src="/images/htswkidspainting170x137.jpg" alt="" /></a>
                                     </div>
                                     <div className="recent__content">
                                         <span>01 jun, 2020</span>
@@ -53,7 +53,7 @@ const BlogHome = () => {
                                 </li>
                                 <li>
                                     <div className="recent__img">
-                                        <a href="/stuffed-with-love-event"><img src="images/blog-img3.jpg" alt="" /></a>
+                                        <a href="/stuffed-with-love-event"><img src="/images/stuffedwithlove170x137.jpg" alt="" /></a>
                                     </div>
                                     <div className="recent__content">
                                         <span>12 may, 2017</span>
@@ -62,7 +62,7 @@ const BlogHome = () => {
                                 </li>
                                 <li>
                                     <div className="recent__img">
-                                        <a href="/summary-march-2017"><img src="/images/blog-img4.jpg" alt="" /></a>
+                                        <a href="/summary-march-2017"><img src="/images/htswstudying170x137.jpg" alt="" /></a>
                                     </div>
                                     <div className="recent__content">
                                         <span>29 mar, 2017</span>

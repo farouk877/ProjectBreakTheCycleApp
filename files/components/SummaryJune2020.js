@@ -9,7 +9,7 @@ const SummaryJune2020 = () => {
                         <div className="blog-content">
                             <div className="blog-item">
                                 <div className="blog-img">
-                                    <img src="/images/img20.jpg" alt="" />
+                                    <img src="/images/htswkidspainting770x414jpg" alt="" />
                                         <span className="blog__date">01 jun, 2020</span>
                                 </div>
                                 <div className="blog-inner-content">
