@@ -32,7 +32,7 @@ class MixerArea extends Component {
                                     </div>
                                     <h2 className="section__title text__white">100% of donations and profits to the people and causes you care about</h2>
                                     <div className="button-shared">
-                                        <a href="/donate" className="theme-btn">Causes</a>
+                                        <a href="/campaigns" className="theme-btn">Campaigns</a>
                                     </div>
                                 </div>
                             </div>
