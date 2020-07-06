@@ -75,7 +75,7 @@ class Contact extends Component {
                                 <h2 className="section__title">Get in Touch With Us</h2>
                                 <p className="section__meta">Write a message</p>
                                 <p className="section__desc">
-                                    This is where we will be allowing new artists to collobrate with the form
+                                    We would love to hear from regarding questions about our mission, where your money is going, or anything else you might want to know. We are also looking for indivduals that want to join the ambassadorship program, companies who would like to match our donations, or artists. 
                                 </p>
                                 <ul className="section__list">
                                     <li><a href="https://www.instagram.com/projectbreakthecycle/?hl=en"><i className="fa fa-instagram"></i></a></li>
@@ -119,23 +119,15 @@ class Contact extends Component {
                                 </form>
                             </div>
                         </div>
+                        
 
                     </div>
                     <div className="row contact-detail-action">
                         <div className="col-lg-4">
-                            <div className="contact-item contact-item1">
-                                <h3 className="contact__title">About</h3>
-                                <p className="contact__desc">
-                                    We are looking for artists and nonprofits to collobrate with us
-                                </p>
-                            </div>
-                        </div>
-                        <div className="col-lg-4">
                             <div className="contact-item contact-item2">
                                 <h3 className="contact__title">Address</h3>
                                 <p className="contact__desc">
-                                    660 broklyn street , 88 new york, United states of
-                                    america
+                                      Bridgewater, NJ but serving the globe
                                 </p>
                             </div>
                         </div>
@@ -143,8 +135,8 @@ class Contact extends Component {
                             <div className="contact-item contact-item3">
                                 <h3 className="contact__title">Contact</h3>
                                 <p className="contact__desc">
-                                    needhelp@oxpitan.com <br />
-                                    666 888 000
+                                    <a href="mailto:info@projectbreakthecycle.com">info@projectbreakthecycle.com</a>
+
                                 </p>
                             </div>
                         </div>
