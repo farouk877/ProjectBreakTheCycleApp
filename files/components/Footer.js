@@ -1,12 +1,58 @@
 import React, {Component} from 'react';
 
 class Footer extends Component {
-    constructor(){
-        super()
+   
+    constructor(props) {
+        super(props);
         this.state = {
-          scrollBtn: false
-        }
-    }
+            scrollBtn: false,
+            email: ''
+          }
+    
+        this.handleChange = this.handleChange.bind(this);
+        this.handleSubmit = this.handleSubmit.bind(this);
+        this.sendMessage = this.sendMessage.bind(this);
+      }
+    
+      handleChange(event) {
+        this.setState({[event.target.name]: event.target.value})
+      }
+    
+      handleSubmit(event) {
+        // alert('Donation Amount: $' + this.state.value + ".00");
+        event.preventDefault();
+        this.sendMessage()
+      }
+
+      sendMessage = () => {
+        const axios = require('axios');
+
+
+        const formURL = "https://docs.google.com/forms/u/0/d/e/1FAIpQLSeJ0W6ev06uN-ApuCmN_gj_444efhe0M7ZZy5Ys9SPxTNfpIw/formResponse" 
+
+        const emailID = "entry.704330290"
+    
+
+        const formData = new FormData()
+
+        const CORS_PROXY = 'https://cors-escape.herokuapp.com/'
+
+
+        formData.append(emailID, this.state.email)
+
+
+        axios.post(formURL, formData)
+            .then(() => {
+                this.setState({
+                    email: '',
+                })
+            }).catch(() => {
+                this.setState({
+                    email: '',
+                })
+            })
+       
+      }
 
     componentDidMount(){
         window.addEventListener('scroll', this.handleScroll);
@@ -47,11 +93,11 @@ class Footer extends Component {
                                     </div>
                                     <div className="newsletter-form">
                                         <div className="form-shared">
-                                            <form action = "https://docs.google.com/forms/u/0/d/e/1FAIpQLSeJ0W6ev06uN-ApuCmN_gj_444efhe0M7ZZy5Ys9SPxTNfpIw/formResponse"  method="post" target="hidden_iframe">
+                                            <form onSubmit={this.handleSubmit}>
                                                 <div className="row">
                                                     <div className="col-lg-9">
                                                         <div className="form-group">
-                                                            <input className="form-control" name = 'email' name="entry.704330290" type="text" placeholder="Sign Up Here" required/>
+                                                            <input id="emailAddressMsgInput" name = 'email' value = {this.state.email} type="email" autoComplete="email" className="form-control" placeholder="Email address" onChange = {this.handleChange} required/>
                                                         </div>
                                                     </div>
                                                     <div className="col-lg-3">
