@@ -25,7 +25,7 @@ const Campaign = () => {
                                     </p>
                                     <ul className="blog__list">
                                         <li><i className="icon-target"></i> Goal: <span>$18,000</span></li>
-                                        <li><i className="fa fa-line-chart"></i> Raised: <span>$155</span></li>
+                                        <li><i className="fa fa-line-chart"></i> Raised: <span>$320</span></li>
                                     </ul>
                                     <Link href="/farming-income-generation"><a className="theme-btn">learn more</a></Link>
                                 </div>
