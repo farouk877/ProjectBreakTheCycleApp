@@ -31,7 +31,7 @@ const CampaignArea = () => {
                                         <span className="fill" data-percentage="80"></span>
                                     </div>
                                     <div className="blog-inner-content">
-                                        <h3 className="blog__title"><a href="/campaign-detail">Income Generation Farming Project</a></h3>
+                                        <h3 className="blog__title"><a href="/farming-income-generation">Income Generation Farming Project</a></h3>
                                         <p className="blog__desc">
                                         Working with the Yemen Relief and Reconstruction Foundation to fund construction 
                                         of farms where families can reap benefits of animal produce and sell surplus back into local markets.
@@ -59,7 +59,7 @@ const CampaignArea = () => {
                                         <span className="fill" data-percentage="23"></span>
                                     </div>
                                     <div className="blog-inner-content">
-                                        <h3 className="blog__title"><a href="/campaign-detail">Orphan Children Scholarship Fund</a>
+                                        <h3 className="blog__title"><a href="/orphan-scholarship-fund">Orphan Children Scholarship Fund</a>
                                         </h3>
                                         <p className="blog__desc">
                                             Working with the Home of Tripoli for Social Welfare to support a scholarship pool 
