@@ -35,8 +35,8 @@ const FarmingIncomeGen = () => {
                                         In a country of 29 million, over 17 million do not have access to enough food. This campaign aims 
                                         to distribute animals to families, where they can use animal produce for cooking meals and sell 
                                         surplus in local markets. By supporting this project, you are directly impacting families for 
-                                        generations to come. This project would be facilitated through our partnership with the Yemen 
-                                        Relief and Reconstruction Fund, <Link href = "https://yemenfoundation.org/project/income-generation/"><a>linked here</a></Link>. 
+                                        generations to come. This project will be facilitated through our partnership with the Yemen 
+                                        Relief and Reconstruction Foundation, <Link href = "https://yemenfoundation.org/project/income-generation/"><a>linked here</a></Link>. 
                                     </p>
                                     {/* <div className="inner-causes-img-box row">
                                         <div className="col-lg-6">
