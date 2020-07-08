@@ -16,8 +16,7 @@ const OrphanScholarFund = () => {
                                 </div>
                                 <div className="blog-inner-content">
                                     <div className="inner-causes-box">
-                                        <h3 className="blog__title"><Link href="/causes-detail"><a>Orphan Children Scholarship Fund</a></Link>
-                                        </h3>
+                                        <h3 className="blog__title">Orphan Children Scholarship Fund</h3>
                                         <ul className="blog__list">
                                             <li><i className="icon-target"></i> Goal: <span>$10,000</span></li>
                                             <li><i className="fa fa-line-chart"></i> Raised: <span>$16,631</span></li>
