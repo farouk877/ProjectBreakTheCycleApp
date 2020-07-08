@@ -65,7 +65,7 @@ class NavOne extends Component {
                                         </div>
                                         <div className="header-btn ml-auto">
                                             <Link href="/shop">
-                                                <a className="theme-btn">Shop</a>
+                                                <a className="theme-btn2">Shop</a>
                                             </Link>
                                         </div>
                                     </div>
@@ -91,7 +91,7 @@ class NavOne extends Component {
                                                                 <li><Link href="/artist"><a>Artists</a></Link></li>
                                                             </ul>
                                                         </li>
-                                                        <span className="header-btn ml-auto"><Link href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SKD88K8R387KQ&source=url"><a className="theme-btn">Donate</a></Link></span>
+                                                        <span className="header-btn ml-auto"><Link href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SKD88K8R387KQ&source=url"><a className="theme-btn2">Donate</a></Link></span>
                                                     </ul>
                                                 </nav>
                                             </div>
@@ -110,7 +110,7 @@ class NavOne extends Component {
                         </div>
                         <div className="side-menu-wrap">
                             <ul className="side-menu-ul">
-                                <li className="sidenav__item"><Link href="/shop"><a className="theme-btn">Shop</a></Link></li>
+                                <li className="sidenav__item"><Link href="/shop"><a className="theme-btn2">Shop</a></Link></li>
                                 <li className="sidenav__item"><a href="/">Home</a></li>
                                 <li className="sidenav__item"><a href="/about">About</a>
                                     <ul className="side-sub-menu">
@@ -126,7 +126,7 @@ class NavOne extends Component {
                                         <li><Link href="/artist"><a>Artists</a></Link></li>
                                     </ul>
                                 </li>
-                                <li className="sidenav__item"><Link href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SKD88K8R387KQ&source=url"><a className="theme-btn">Donate</a></Link></li>
+                                <li className="sidenav__item"><Link href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SKD88K8R387KQ&source=url"><a className="theme-btn2">Donate</a></Link></li>
                                 {/* <div className="side-btn">
                                     <Link href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SKD88K8R387KQ&source=url"><a className="theme-btn">Donate Now</a></Link>
                                 </div> */}

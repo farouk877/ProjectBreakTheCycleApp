@@ -50,7 +50,7 @@ const ServiceArea = () => {
                 <div className="row">
                     <div className="col-lg-12">
                             <a href="/about" className="theme-btn">About Us</a>
-                            <a href="/shop" className="theme-btn" style={{"background": "#5f9ad1!important"}}>Shop</a>
+                            <a href="/shop" className="theme-btn2" style={{"background": "#5f9ad1!important"}}>Shop</a>
                     </div>  
                 </div>
             </div>

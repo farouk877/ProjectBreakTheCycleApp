@@ -167,9 +167,60 @@ a:hover {
 }
 .theme-btn:hover,
 .theme-btn:hover:after {
+    background-color: #eaaf67;
+    color: #fff;
+}
+
+
+.theme-btn2 {
+    font-size: 12px;
+    text-transform: uppercase;
+    background: #5f9ad1;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 0 30px 0 35px;
+    line-height: 49px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    -webkit-transition: 0.3s ease-in;
+    -moz-transition: 0.3s ease-in;
+    -ms-transition: 0.3s ease-in;
+    -o-transition: 0.3s ease-in;
+    transition: 0.3s ease-in;
+    text-decoration: none;
+    border: none;
+}
+.theme-btn2:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 1px;
+    z-index: -1;
+    background: #5f9ad1;
+    -webkit-transform-origin: bottom left;
+    transform-origin: bottom left;
+    -webkit-transform: skew(-12deg,0deg);
+    -moz-transform: skew(-12deg,0deg);
+    -ms-transform: skew(-12deg,0deg);
+    -o-transform: skew(-12deg,0deg);
+    transform: skew(-12deg,0deg);
+    -webkit-transition: 0.3s ease-in;
+    -moz-transition: 0.3s ease-in;
+    -ms-transition: 0.3s ease-in;
+    -o-transition: 0.3s ease-in;
+    transition: 0.3s ease-in;
+}
+.theme-btn2:hover,
+.theme-btn2:hover:after {
     background-color: #5f9ad1;
     color: #fff;
 }
+
 /*=== section-heading ====*/
 .section-heading .section__title {
     font-size: 50px;
@@ -1648,12 +1699,61 @@ a:hover {
     max-width: 650px;
 }
 .service-area .button-shared .theme-btn,
-.service-area .button-shared .theme-btn:after {
-    background-color: #5f9ad1;
+.service-area .button-shared .theme-btn:before {
+    background-color: #eaaf67;
 }
 .service-area .button-shared .theme-btn:hover,
 .service-area .button-shared .theme-btn:hover:after {
     background-color: #eaaf67;
+}
+
+.service-area .theme-btn2 {
+    font-size: 12px;
+    text-transform: uppercase;
+    background: #5f9ad1;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 0 30px 0 35px;
+    line-height: 49px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    -webkit-transition: 0.3s ease-in;
+    -moz-transition: 0.3s ease-in;
+    -ms-transition: 0.3s ease-in;
+    -o-transition: 0.3s ease-in;
+    transition: 0.3s ease-in;
+    text-decoration: none;
+    border: none;
+}
+.service-area .theme-btn2:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 1px;
+    z-index: -1;
+    background: #5f9ad1;
+    -webkit-transform-origin: bottom left;
+    transform-origin: bottom left;
+    -webkit-transform: skew(-12deg,0deg);
+    -moz-transform: skew(-12deg,0deg);
+    -ms-transform: skew(-12deg,0deg);
+    -o-transform: skew(-12deg,0deg);
+    transform: skew(-12deg,0deg);
+    -webkit-transition: 0.3s ease-in;
+    -moz-transition: 0.3s ease-in;
+    -ms-transition: 0.3s ease-in;
+    -o-transition: 0.3s ease-in;
+    transition: 0.3s ease-in;
+}
+.service-area .theme-btn2:hover,
+.service-area .theme-btn2:hover:after {
+    background-color: #5f9ad1;
+    color: #fff;
 }
 
 /* Heartbeat frame*/
