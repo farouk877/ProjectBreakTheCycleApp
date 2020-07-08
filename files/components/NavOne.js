@@ -126,7 +126,7 @@ class NavOne extends Component {
                                         <li><Link href="/artist"><a>Artists</a></Link></li>
                                     </ul>
                                 </li>
-                                <li className="sidenav__item"><Link href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SKD88K8R387KQ&source=url"><a className="theme-btn2">Donate</a></Link></li>
+                                <li className="sidenav__item"><Link href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SKD88K8R387KQ&source=url"><a className="theme-btn">Donate</a></Link></li>
                                 {/* <div className="side-btn">
                                     <Link href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SKD88K8R387KQ&source=url"><a className="theme-btn">Donate Now</a></Link>
                                 </div> */}
