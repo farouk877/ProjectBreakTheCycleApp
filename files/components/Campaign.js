@@ -24,7 +24,7 @@ const Campaign = () => {
                                             of farms where families can reap benefits of animal produce and sell surplus back into local markets.
                                     </p>
                                     <ul className="blog__list">
-                                        <li><i className="icon-target"></i> Goal: <span>$18,000</span></li>
+                                        <li><i className="icon-target"></i> Goal: <span>$18,060</span></li>
                                         <li><i className="fa fa-line-chart"></i> Raised: <span>$320</span></li>
                                     </ul>
                                     <Link href="/farming-income-generation"><a className="theme-btn">learn more</a></Link>
