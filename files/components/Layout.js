@@ -63,6 +63,7 @@ const Layout = (props) => {
                         gtag('config', '${GA_TRACKING_ID}', {
                         page_path: window.location.pathname,
                         });
+                        gtag('config', 'AW-854422845');
                     `,
                         }}
                     />
