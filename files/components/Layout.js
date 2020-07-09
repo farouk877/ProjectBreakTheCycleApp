@@ -66,9 +66,6 @@ const Layout = (props) => {
                     `,
                         }}
                     />
-                
-                
-
             </Head>
 
             {props.children}
