@@ -63,7 +63,7 @@ class RaisingMoney extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-6" style={{'background-color':''}}>
+                            <div className="col-lg-6">
                                     {/* <p className="section__desc">
                                         Every few months, we partner with a different non-profit organization and select a 
                                         campaign we want to support. We do the leg work when it comes to creatively 
@@ -74,7 +74,7 @@ class RaisingMoney extends Component {
                                         although 100% of profits from merchandise sales will go to the now active campaign. 
                                     </p> */}
                                         <div >
-                                            <img style={{'max-width':'500px','width':'100%'}} src="/images/fundingChart.png" alt="" />
+                                            <img style={{'maxWidth':'500px','width':'100%'}} src="/images/fundingChart.PNG" alt="" />
                                         </div>
                             </div>
                         </div>
