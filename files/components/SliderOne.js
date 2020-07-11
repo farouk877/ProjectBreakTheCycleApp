@@ -31,7 +31,7 @@ const SliderOne = () => {
                                 <div className="row">
                                     <div className="col-md-7">
                                         <div className="slider-heading">
-                                            <h2 className="slider__title">Sustainably breaking the cycle of injustice</h2>
+                                            <h2 className="slider__title">Sustainably breaking the cycle of poverty</h2>
                                         </div>
                                     </div>
                                 </div>

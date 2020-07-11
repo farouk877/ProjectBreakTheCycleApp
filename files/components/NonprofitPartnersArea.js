@@ -20,12 +20,12 @@ const NonprofitPartnersArea = () => {
                                 <p className="section__meta">We empower our partners</p>
                                 <p className="section__desc">
                                     Since Project Break The Cycle acts as a fundraising nonprofit organization, 
-                                    we need partner nonprofits to actually fulfill our campaign goals. Through 
-                                    our rigorous vetting process, we ensure our partners are proven, transparent, 
-                                    and relevant before moving forward. After campaigns are completed and the 
-                                    work is fulfilled, we partner with other nonprofits and repeat the same 
-                                    process. With your support, our fundraising, and partners’ efforts, 
-                                    we’re making the world a better place.
+                                    we need partner nonprofits to fulfill our campaign goals. Through our rigorous 
+                                    vetting process, we ensure our partners are reputable and transparent before 
+                                    moving forward. Every two quarters, after campaigns are completed, we partner 
+                                    with other nonprofits that align with our mission and repeat the same process. 
+                                    With your support, our fundraising, and our partners’ efforts, we are making 
+                                    progress in ending the cycle of poverty in the Middle East.
                                 </p>
                             </div>
                         </div>

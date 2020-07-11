@@ -48,7 +48,7 @@ const Campaign = () => {
                                     </p>
                                     <ul className="blog__list">
                                         <li><i className="icon-target"></i> Goal: <span>$10,000</span></li>
-                                        <li><i className="fa fa-line-chart"></i> Raised: <span>$16,631</span></li>
+                                        <li><i className="fa fa-line-chart"></i> Raised: <span>$16,650</span></li>
                                     </ul>
                                     <Link href="/orphan-scholarship-fund"><a className="theme-btn">learn more</a></Link>
                                 </div>

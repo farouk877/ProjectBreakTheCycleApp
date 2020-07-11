@@ -28,15 +28,29 @@ const FarmingIncomeGen = () => {
                                     
                                 </div>
                                 <div className="blog-inner-content-2">
+                                    <p className="causes__text" style={{"color":"green"}}>
+                                    ACTIVE CAMPAIGN
+                                    </p>
                                     <p className="causes__text">
-                                    Sustainability is a large facet of our mission. Breaking the cycle of poverty and injustice cannot happen with a one-time cash donation. Creating streams of income and resources that won’t deplete when we leave the region are the most effective ways of ensuring communities can help themselves well into the future. 
+                                    Rife with political conflicts, war devastation, and famine, Yemen has over 
+                                    20 million of its 29 million people suffering from food insecurity (World Food 
+                                    Programme). According to the United Nations Association - UK, a child dies 
+                                    every 10 minutes from malnutrition or disease. The proxy war has worsened the 
+                                    dire humanitarian crisis by imposing severe restrictions on the flow of aid into 
+                                    Yemen. The United Nations Office for Coordination of Humanitarian Affairs 
+                                    reported that 14.3 million people, almost 50% of the population, need some 
+                                    form of aid to sustain their lives. 
                                     </p>
                                     <p className="causes__text causes__text2">
-                                        In a country of 29 million, over 17 million do not have access to enough food. This campaign aims 
-                                        to distribute animals to families, where they can use animal produce for cooking meals and sell 
-                                        surplus in local markets. By supporting this project, you are directly impacting families for 
-                                        generations to come. This project will be facilitated through our partnership with the Yemen 
-                                        Relief and Reconstruction Foundation, <Link href = "https://yemenfoundation.org/project/income-generation/"><a>linked here</a></Link>. 
+                                    The core principle of our mission is sustainably alleviating poverty throughout 
+                                    the Middle East. Our campaign aims to generate streams of income by distributing 
+                                    animals to impoverished families, where they can use animal produce for cooking 
+                                    meals and sell the surplus in local markets. This project will be facilitated 
+                                    through our partnership with the Yemen Relief and Reconstruction Foundation 
+                                    (YRRF). YRRF’s extensive network in Yemen renders it one of the few nonprofit 
+                                    organizations that can provide direct relief to the region. You can learn more 
+                                    about YRRF’s other impactful projects on their website,   
+                                    <Link href = "https://yemenfoundation.org/project/income-generation/"><a> linked here</a></Link>. 
                                     </p>
                                     {/* <div className="inner-causes-img-box row">
                                         <div className="col-lg-6">
@@ -51,44 +65,30 @@ const FarmingIncomeGen = () => {
                                         </div>
                                     </div> */}
                                     <p className="causes__text">
-                                        Our goal is to raise $17,500 total to fund the purchase, delivery, and implementation of the required items
-                                        to create three separate income generation projects. The first project will consist of purchasing 80 goats,
-                                        feed, and veterinary services to be implemented in Hudaydah Governorate in Yemen. The second and third 
-                                        projects will consist of purchasing 550 egg-laying chickens with feed for a total of 1100 chickens. These 
-                                        two projects will be implemented in two other Governorates. The costing breakdown is listed below. 
-                                        Please support this project by donating directly or visiting our <a href="/shop">Shop</a>, where 100% 
-                                        of profits are donated to this active campaign!
+                                    Our goal is to raise $17,500 total to fund the purchase, delivery, and implementation 
+                                    of the required items to create three separate income generation projects. The first 
+                                    project will consist of purchasing 80 goats, feed, and veterinary services to be 
+                                    implemented in Hudaydah Governorate in Yemen. The second and third projects will 
+                                    consist of purchasing 550 egg-laying chickens with feed for a total of 1100 chickens. 
+                                    These two projects will be implemented in two other Governorates. Please support this 
+                                    project by donating directly or visiting our <a href="/shop">Shop</a>, where 100% of profits are donated 
+                                    to this active campaign! The costing breakdown is listed below: 
                                     </p> 
-
                                     <div>
                                     <ul>
                                         <li>80 goats: $8,000</li>
                                         <li>40 bags of feed: $400</li>
-                                        <li>Veterinarian: $300</li>
+                                        <li>Veterinary Services: $300</li>
                                         <li>Purchase and distribute chickens (550): $4000</li>
                                         <li>Chicken feed: $100</li>
                                         <li>Purchase and distribute chickens (550): $4000</li>
                                         <li>Chicken feed: $100</li>
-                                        <li>Administration, logistic, transportation and distribution cost: $600</li>
-
-                                        {/* <li>80 goats: $8,000</li> 
-                                        <li>40 bags of feed: $400</li>
-                                        <li>Purchase goats/travel: $200</li>
-                                        <li>Veterinarian: $200</li>
-                                        <li>Distribution cost: $160</li>
-                                        <li>Travel to Hajja and back: $200</li>
-                                        <li>Transport of goats: $600</li>
-                                        <li>Hotel in Hajja: $100</li>
-                                        <li>Purchase and distribute chickens (550): $4000</li>
-                                        <li>Chicken feed: $100</li>
-                                        <li>Purchase and distribute chickens (550): $4000</li>
-                                        <li>Chicken feed: $100</li> */}
-
+                                        <li>Administration, logistics, transportation and distribution cost: $600</li>
                                     </ul>
                                     <br/>
                                     </div>
                                     <div>
-                                    <p className = 'causes_text'>
+                                    <p className="causes_text">
                                         Further information can be found here: <Link href = "https://yemenfoundation.org/project/income-generation/"><a>https://yemenfoundation.org/project/income-generation/</a></Link>
                                     </p>
                                     </div>

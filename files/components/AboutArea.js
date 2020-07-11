@@ -15,12 +15,13 @@ const AboutArea = () => {
                                 <h2 className="section__title">Who We Are</h2>
                                 <p className="section__meta">why does project break the cycle exist?</p>
                                 <p className="section__desc">
-                                    We are Project Break The Cycle, a 501(c)3 nonprofit organization aspiring to sustainably break 
-                                    the cycle of injustice by empowering proven, transparent, and relevant nonprofit organizations 
-                                    through creative fundraising mechanisms. In other words, we’re a nonprofit for nonprofits, helping 
-                                    them fundraise in ways they haven’t done before by tapping into unexplored revenue streams. We’ve 
-                                    established a community wanting to support transparent nonprofits while in return receiving 
-                                    amazing products to display their support. 
+                                    We are a 501(c)3 fundraising nonprofit organization that utilizes 
+                                    100% of profits from selling uniquely designed clothing to empower 
+                                    nonprofit organizations aimed at sustainably breaking the cycle of 
+                                    poverty in the Middle East. In other words, we’re a nonprofit for 
+                                    nonprofits. We help them fundraise in novel ways by tapping into 
+                                    unexplored revenue streams, such as merchandise sales and corporate 
+                                    matching programs.
                                 </p>
                             </div>
                         </div>

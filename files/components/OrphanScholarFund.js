@@ -19,7 +19,7 @@ const OrphanScholarFund = () => {
                                         <h3 className="blog__title">Orphan Children Scholarship Fund</h3>
                                         <ul className="blog__list">
                                             <li><i className="icon-target"></i> Goal: <span>$10,000</span></li>
-                                            <li><i className="fa fa-line-chart"></i> Raised: <span>$16,631</span></li>
+                                            <li><i className="fa fa-line-chart"></i> Raised: <span>$16,650</span></li>
                                         </ul>
                                     </div>
                                     <div className="inner-causes-btn">
@@ -28,11 +28,14 @@ const OrphanScholarFund = () => {
                                     
                                 </div>
                                 <div className="blog-inner-content-2">
+                                    <p className="causes__text" style={{"color":"orange"}}>
+                                    PREVIOUS CAMPAIGN
+                                    </p>
                                     <p className="causes__text">
-                                    We understand that providing a healthy environment for children to grow up in is critical for their futures. Many children that are trapped in the cycle of poverty never have the opportunities to make sustainable changes in their lives. Working alongside the Home of Tripoli for Social Welfare, Project Break The Cycle wants to create a safe, sustainable environment for orphans to grow up in where they can eventually break free from generational poverty.
+                                        We realize that education is the driving force for individuals to sustainably break free from intergenerational poverty. A better education provides better job opportunities that pay higher salaries, thus allowing individuals to better support their families and escape the cycle of poverty. In Lebanon, political conflicts have devastated public school systems, rendering private school as the only means of obtaining a thorough education. Currently, the Home of Tripoli for Social Welfare (HTSW), an orphanage in Tripoli, Lebanon, only has the funding to send 7 of its 55 children to private school. Project Break The Cycle aims to raise that number and provide more children with the opportunity to seek better education. 
                                     </p>
                                     <p className="causes__text causes__text2">
-                                    We realize that education is paramount for individuals to sustainably change their lives. With a better education, there are better job outlooks paying better salaries, thus allowing individuals to better support their families and break free from the poverty cycle. To reach our goal, we’ve partnered with the Home of Tripoli for Social Welfare based in Tripoli, Lebanon to organize a scholarship pool, where funds will be used for private school tuition, private after-school teachers, books, and other school supplies. Our goal is to provide a $10,000 education fund for HTSW. Since the Lebanese public education system is currently in shambles, small financial support in regards to education can have big impacts on these children. The costing details can be found below. Please support this project by donating directly to the campaign!
+                                        To reach our goal, we’ve partnered with HTSW to organize a scholarship pool where funds will be allocated for private school tuition, private after-school tutors, books, and other school supplies. Our goal is to provide a $10,000 education fund for HTSW. The allocation details can be found below. 
                                     </p>
                                     {/* <div className="inner-causes-img-box row">
                                         <div className="col-lg-6">
@@ -48,15 +51,33 @@ const OrphanScholarFund = () => {
                                     </div> */}
                                     <p className="causes__text">
                                         <ul>
-                                            <li>2x full-tuition scholarship for 1 grade-school-year: $7,466</li>
-                                            <li>2x after school private teacher (price per child): $667</li>
-                                            <li>2x school supplies (books, stationary, etc.): $667</li>
-                                            <li>2x school bag: $100</li>
-                                            <li>2x transportation fees: $933</li>
-                                            <li>2x miscellaneous items (snacks, uniforms, etc.): $167</li>
+                                            <li> Goal: $10,000</li>
+                                            <li> Tuition scholarship for one school-year: $7,466</li>
+                                            <li> 2x after school private teacher (per child) for one school year: $667</li>
+                                            <li> 2x school supplies (books, stationary, bags, etc.): $767</li>
+                                            <li> 2x transportation fees for one school-year: $933</li>
+                                            <li> 2x miscellaneous items (snacks, uniforms, etc.): $167</li>
                                         </ul>
                                         <br/>
+                                    </p>
+                                    <p className="causes__text">
+                                        [UPDATE]
+                                        July 6, 2020: We have raised $16,650, surpassing our fundraising goal of $10,000! All extra funding ($6,650) has been directed towards full-tuition scholarships for orphans at HTSW. Our fundraising for this partnership has now concluded. Thank you to all our supporters! Below is the updated allocation information:
                                     </p>    
+                                    <p className="causes__text">
+                                        <ul>
+                                            <li> Total Raised: $16,650/$10,000</li>
+                                            <li> Tuition scholarships for one school year: $14,116/$7,466</li>
+                                            <li> 2x after school private teacher (per child) for one school year: $667/$667</li>
+                                            <li> 2x school supplies (books, stationary, bags, etc.): $767/$767</li>
+                                            <li> 2x transportation fees for one school-year: $933/$933</li>
+                                            <li> 2x miscellaneous items (snacks, uniforms, etc.): $167/$167</li>
+                                        </ul>
+                                    </p>
+                                        
+                                        
+
+                                    
                                 </div>
                             </div>
                         </div>

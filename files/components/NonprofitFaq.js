@@ -25,22 +25,13 @@ class NonprofitFaq extends Component {
                         <div className="col-lg-6">
                             <div className="accordion-container">
                                 <div className="ac">
-                                    <h2 className="ac-q" tabIndex="0">How do you select nonprofit partners?</h2>
+                                    <h2 className="ac-q" tabIndex="0">How do you select honest nonprofit partners?</h2>
                                     <div className="ac-a">
                                         <p className="accordion__content-desc">
-                                            When selecting partners, we look at the organization’s mission, 
-                                            current fundable campaigns, track record, public rapport, and 
-                                            whether or not they are proven, transparent, and relevant. 
-                                        </p>
-                                    </div>
-                                </div>
-
-                                <div className="ac">
-                                    <h2 className="ac-q" tabIndex="0">How do you ensure nonprofit partners are honest?</h2>
-                                    <div className="ac-a">
-                                        <p className="accordion__content-desc">
-                                            Before partnering, we dive deep into each of our criteria categories, 
-                                            browsing contribution history, tax records, documented work, and so much more. 
+                                            When selecting partners, we assess the organization’s mission statement, 
+                                            current fundable campaigns, and success of previous campaigns. In addition, 
+                                            we look at official documentation that details their expenditures, 
+                                            budget allocations, contribution and donor history, and tax records.
                                         </p>
                                     </div>
                                 </div>

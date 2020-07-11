@@ -11,6 +11,9 @@ import CallToAction from "../components/CallToAction";
 import CallToActionTwo from "../components/CallToActionTwo";
 
 import ExamplePaypal from '../components/ExamplePaypal';
+import GoodPartners from '../components/GoodPartners';
+import RaisingMoney from '../components/RaisingMoney';
+import GraphOne from '../components/GraphOne';
 
 const HomePage = () => {
     return (
@@ -18,8 +21,11 @@ const HomePage = () => {
           <NavOne />
           <SliderOne />
           <ServiceArea />
-          <MixerArea />
+          <GoodPartners />
           <CampaignArea />
+          {/* <GraphOne /> */}
+          <RaisingMoney />
+          
           <CallToAction />
           <CallToActionTwo />
           <Footer />

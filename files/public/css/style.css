@@ -2025,7 +2025,7 @@ a:hover {
     MIXER AREA 3
 =====================================*/
 .mixer-area3 {
-    background-image: url("../images/multiplehoodies.jpg");
+    background-color: #ffffff;
 }
 .mixer-area3:after {
     background-color: rgba(66, 66, 66, 0.80);

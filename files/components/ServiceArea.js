@@ -36,8 +36,10 @@ const ServiceArea = () => {
                                 <div className="service-content">
                                     {/* <h4 className="service__title">hope</h4> */}
                                     <p className="service__desc" >
-                                        We are a 501(c)3 nonprofit organization aspiring to sustainably break the cycle of injustice by empowering proven, 
-                                        transparent, and relevant nonprofit organizations through creative fundraising partnerships. 
+                                        We are a 501(c)3 fundraising nonprofit organization that utilizes 100% of profits from selling uniquely 
+                                        designed clothing to empower nonprofit organizations aimed at sustainably breaking the cycle of 
+                                        poverty in the Middle East.
+
                                         Visit our About page to learn more.
                                     </p>
                                 </div>
