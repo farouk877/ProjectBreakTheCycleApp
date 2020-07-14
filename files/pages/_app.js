@@ -30,14 +30,23 @@ import NProgress from 'nprogress'; //nprogress module
 import 'nprogress/nprogress.css'; //styles of nprogress
 import * as gtag from '../util/gtag';
 
+const handleRouteStart = (url) => {
+  // gtag.pageview(url)
+  NProgress.start()
+
+  
+}
+const handleRouteChange = (url) => {
+  gtag.pageview(url)
+  NProgress.done()
+
+}
 //Binding events. 
-Router.events.on('routeChangeStart', () => NProgress.start()); Router.events.on('routeChangeComplete', () => NProgress.done()); Router.events.on('routeChangeError', () => NProgress.done());
+Router.events.on('routeChangeStart', handleRouteStart); Router.events.on('routeChangeComplete', handleRouteChange); Router.events.on('routeChangeError', handleRouteChange);
 
 function MyApp({ Component, pageProps }) {
     
-  const handleRouteChange = (url) => {
-    gtag.pageview(url)
-  }
+
     
 
     return <Component {...pageProps} />
