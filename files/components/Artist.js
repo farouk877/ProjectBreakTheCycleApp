@@ -88,29 +88,24 @@ class Artist extends Component {
                                 </div>
                                 <h2 className="section__title">Work With Us</h2>
                                 <p className="section__desc">
-                                    Hello! We are Project Break The Cycle, a 501(c)(3) nonprofit organization that supports other proven, 
-                                    transparent, and relevant nonprofit organizations through creative fundraising partnerships that aspire 
-                                    to sustainably break the cycle of injustice. For the next few months, our partner organization is the 
-                                    Yemen Relief and Reconstruction Foundation (YRRF). 
+                                Hello! We are a 501(c)3 fundraising nonprofit organization that utilizes 100% of profits from selling uniquely designed clothing to empower nonprofit organizations aimed at sustainably breaking the cycle of poverty in the Middle East.
+
+
                                     <br/><br/>
-                                    To raise funds in creative ways, Project Break The Cycle produces unique merchandise in which 100% 
-                                    of profits are donated to the current campaign. We are looking for volunteer artists to design pieces 
-                                    for our upcoming collection supporting the Yemen Relief and Reconstruction Foundation and their efforts 
-                                    in establishing income generation projects. More information about the work being done can be found 
-                                    <a href="/farming-income-generation"> here</a>.
+                                    To raise funds in creative ways, Project Break The Cycle produces unique merchandise in which 100% of profits are donated to the current campaign. Every few months, we switch campaigns and partner with a different nonprofit to help another cause. We need artists that can adequately capture the condition of the population that we serve through the medium of fashion design.
+
+
+
+                                    {/* <a href="/farming-income-generation"> here</a>. */}
                                     <br/><br/>
-                                    These designs are open-ended to whatever you think is appropriate, but are encouraged to be inspired by 
-                                    Yemeni culture, nature, or the current crisis. Your design can be embroidered or screen printed, so keep 
-                                    that in mind!
+                                    Right now, we are partnered with the Yemen Relief and Reconstruction Foundation, a nonprofit focused on creating sustainable, practical solutions towards reconstruction in Yemen, as well as raising awareness about the current Yemeni humanitarian crisis. We’re currently funding their Income Generation campaign, which you can learn more about on our Campaigns page. More information can be found at yemenfoundation.org.
+
                                     <br/><br/>
-                                    To date, Project Break The Cycle has raised over $20,000 for amazing causes. The designs you will be creating 
-                                    will significantly impact people entangled in Yemen's humanitarian crisis, and can change lives forever.
+                                    These designs are open-ended to whatever you think is appropriate, but are encouraged to be inspired by Yemeni culture, nature, or the current crisis. Your design can be embroidered or screen printed, so keep that in mind!
+
                                     <br/><br/>
-                                    In exchange for your design contributions, we will be providing you with exposure on our current platform, 
-                                    giving you the spotlight and credit on your work through our merchandise (your name/brand on every piece of 
-                                    merchandise produced) and social media features, or money depending on the submission. We are accepting artwork 
-                                    on a rolling basis. Please allow 1-2 weeks for us to get back to you. Email farouk@projectbreakthecycle.com 
-                                    with any questions.
+                                    To date, Project Break The Cycle has raised over $20,000 for amazing causes. The designs you will be creating will significantly impact people entangled in Yemen's humanitarian crisis, and can change lives forever.
+In exchange for your design contributions, we will be providing you with exposure on our current platform, giving you the spotlight and credit on your work through our merchandise (your name/brand on every piece of merchandise produced) and social media features, or monetary payment depending on the submission. We are accepting artwork on a rolling basis. Please allow 1-2 weeks for us to get back to you. Email farouk@projectbreakthecycle.com with any questions.
                                 </p>
                                 <ul className="section__list">
                                     <li><a href="https://www.instagram.com/projectbreakthecycle/?hl=en"><i className="fa fa-instagram"></i></a></li>
