@@ -42,9 +42,6 @@ const SliderOne = () => {
                 </Swiper>
 
 
-                <div className="owl-dots">
-                    <div onClick={goPrev} className="owl-dot"><span></span></div>
-                </div>
 
 
             </div>
