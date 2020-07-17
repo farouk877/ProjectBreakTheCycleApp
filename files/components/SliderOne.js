@@ -39,27 +39,11 @@ const SliderOne = () => {
                         </div>
                     </div>
                 </div>
-                <div className="single-slide-item slide-bg2">
-                    <div className="slide-item-table">
-                        <div className="slide-item-tablecell">
-                            <div className="container">
-                                <div className="row">
-                                    <div className="col-md-7">
-                                        <div className="slider-heading">
-                                            <h2 className="slider__title">Creative fundraisers empowering nonprofits</h2>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 </Swiper>
 
 
                 <div className="owl-dots">
                     <div onClick={goPrev} className="owl-dot"><span></span></div>
-                    <div onClick={goNext} className="owl-dot"><span></span></div>
                 </div>
 
 
