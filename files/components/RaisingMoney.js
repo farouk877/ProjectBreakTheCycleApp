@@ -74,9 +74,9 @@ class RaisingMoney extends Component {
                                         although 100% of profits from merchandise sales will go to the now active campaign. 
                                     </p> */}
                                         <div >
-                                            <div clasName = "fun-content">
+                                            <div className = "fun-content">
                                                 <div className = "fun-item fun-item1">
-                                                    <img style={{'maxWidth':'500px','width':'100%', 'padding-bottom': 80}} src="/images/fundingChart.PNG" alt="" />
+                                                    <img style={{'maxWidth':'500px','width':'100%', 'paddingBottom': 80}} src="/images/fundingChart.PNG" alt="" />
                                                 </div>
                                             </div>
                                             
