@@ -10,7 +10,7 @@ const Campaign = () => {
                         <div className="blog-content">
                             <div className="blog-item blog-item2">
                                 <div className="blog-img">
-                                    <img src="/images/animals370x317.jpg" alt="" />
+                                    <img src="/images/igpost6.png" alt="" />
                                     <span className="blog__tag" style={{ color: '#33FF3B' }}><i className="fa fa-flash"></i> Active</span>
                                 </div>
                                 <div className="blog-inner-content">
@@ -20,8 +20,8 @@ const Campaign = () => {
                                         </Link>
                                     </h3>
                                     <p className="blog__desc">
-                                        Working with the Yemen Relief and Reconstruction Foundation to fund the distribution of farm animals 
-                                        where families can reap benefits of animal produce and sell surplus back into local markets.
+                                        Working with the Yemen Relief and Reconstruction Foundation to fund the distribution of farm animals. 
+                                        Families can eat animal produce and sell surplus back into local markets.
                                     </p>
                                     <ul className="blog__list">
                                         <li><i className="icon-target"></i> Goal: <span>$17,500</span></li>
@@ -36,7 +36,7 @@ const Campaign = () => {
                         <div className="blog-content">
                             <div className="blog-item blog-item1">
                                 <div className="blog-img">
-                                    <img src="/images/playinggames_campaign.jpg" alt="" />
+                                    <img src="/images/PBTC-18.png" alt="" />
                                     <span className="blog__tag" style={{ color: 'orange' }}><i className="fa fa-lock"></i> Previous</span>
                                 </div>
                                 <div className="blog-inner-content">

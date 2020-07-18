@@ -122,25 +122,7 @@ class Contact extends Component {
                         
 
                     </div>
-                    <div className="row contact-detail-action">
-                        <div className="col-lg-4">
-                            <div className="contact-item contact-item2">
-                                <h3 className="contact__title">Location</h3>
-                                <p className="contact__desc">
-                                      Bridgewater, NJ but serving the globe
-                                </p>
-                            </div>
-                        </div>
-                        <div className="col-lg-4">
-                            <div className="contact-item contact-item3">
-                                <h3 className="contact__title">Contact</h3>
-                                <p className="contact__desc">
-                                    <a href="mailto:info@projectbreakthecycle.com">info@projectbreakthecycle.com</a>
-
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+                
                 </div>
             </section>
         );
