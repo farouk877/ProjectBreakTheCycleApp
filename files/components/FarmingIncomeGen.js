@@ -65,15 +65,8 @@ const FarmingIncomeGen = () => {
                                         </div>
                                     </div> */}
                                     <p className="causes__text">
-                                    Our goal is to raise $17,500 total to fund the purchase, delivery, and implementation 
-                                    of the required items to create three separate income generation projects. The first 
-                                    project will consist of purchasing 80 goats, feed, and veterinary services to be 
-                                    implemented in Hudaydah Governorate in Yemen. The second and third projects will 
-                                    consist of purchasing 550 egg-laying chickens with feed for a total of 1100 chickens. 
-                                    These two projects will be implemented in two other Governorates. Please support this 
-                                    project by donating directly or visiting our <a href="/shop">Shop</a>, where 100% of profits are donated 
-                                    to this active campaign! The costing breakdown is listed below: 
-                                    </p> 
+                                        Our goal is to raise $17,500 total to fund the purchase, delivery, and implementation of the required items to create three separate income generation projects. The first project will consist of purchasing 80 goats, feed, and veterinary services to be implemented in Hudaydah Governorate in Yemen. This project will be able to sustain 20 families, who will each receive 4 goats. The second and third projects will consist of purchasing 550 egg-laying chickens with feed for a total of 1100 chickens. These two projects will be implemented in two other Governorates, and are projected to support approximately 100 families who will each receive 11 chickens. On average, each family in Yemen has 6 members; thus, the total work from our three projects are expected to impact 720 people. Previous YRRF projects that leveraged goats for income generation report that no animals were sold or slaughtered within a year.  Rather, each family’s flock had approximately doubled in size. In order to ensure effective use of the animals, the families are visited quarterly to monitor impact and give advice about flock raising. Please support this project by donating directly or visiting our <a href="/shop">Shop</a>, where 100% of profits are donated to this active campaign! If our fundraising goal is exceeded, the remaining funds will fund other similar income generation projects through YRRF. The costing breakdown is listed below: 
+                                    </p>
                                     <div>
                                     <ul>
                                         <li>80 goats: $8,000</li>
