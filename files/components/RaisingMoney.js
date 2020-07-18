@@ -76,7 +76,7 @@ class RaisingMoney extends Component {
                                         <div >
                                             <div className = "fun-content">
                                                 <div className = "fun-item fun-item1">
-                                                    <img style={{'maxWidth':'500px','width':'100%', 'paddingBottom': 80}} src="/images/fundingChart.PNG" alt="" />
+                                                    <img style={{'maxWidth':'500px','width':'100%', 'paddingBottom': 50, "paddingTop": 20, "paddingRight": 100,'position': 'relative'}} src="/images/fundingChart.PNG" alt="" />
                                                 </div>
                                             </div>
                                             
