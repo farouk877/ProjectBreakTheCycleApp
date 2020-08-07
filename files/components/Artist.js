@@ -26,7 +26,7 @@ class Artist extends Component {
         const axios = require('axios');
 
 
-        const formURL = "https://docs.google.com/forms/u/0/d/e/1FAIpQLSfEYGvPA85hIzPYaYVZJ0ctDuOMV5TGVFr6-OhT_1yzRgSoPg/formResponse"
+        const formURL = "https://docs.google.com/forms/u/1/d/e/1FAIpQLSfEYGvPA85hIzPYaYVZJ0ctDuOMV5TGVFr6-OhT_1yzRgSoPg/formResponse"
 
         const nameID = "entry.1781500597"
         const emailID = "entry.1640447617"
@@ -145,7 +145,7 @@ In exchange for your design contributions, we will be providing you with exposur
                                             <textarea id="messageContentInput" name = 'msg4' value={this.state.msg4} type="text" className="form-control" placeholder="[Optional] Describe your design idea in 1-3 sentences." onChange = {this.handleChange} required></textarea>
                                         </div>
 
-
+                                
                                         <div className="col-lg-12 col-sm-12">
                                             <button className="theme-btn submit__btn" type="submit">Send Message</button>
                                         </div>
