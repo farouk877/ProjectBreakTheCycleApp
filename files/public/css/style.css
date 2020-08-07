@@ -1570,6 +1570,7 @@ a:hover {
 .hiw-area .hiw-item .hiw-item-img-box:hover .hiw-btn-box .theme-btn:after {
     background-color: #5f9ad1;
 }
+
 /*===================================
     SERVICE AREA
 =====================================*/
@@ -2348,6 +2349,11 @@ a:hover {
 .causes-area .blog-content-wrap .blog-content .blog-item2 .barfiller .tip:after {
     border-top-color: #5f9ad1;
 }
+
+.causes-area .blog-content-wrap .blog-content .blog-item2 .blog-inner-content .theme-btn2,
+.causes-area .blog-content-wrap .blog-content .blog-item2 .blog-inner-content .theme-btn2:after {
+    background-color: #9bbda2;
+}
 .causes-area .blog-content-wrap .blog-content .blog-item4 .blog-inner-content .theme-btn,
 .causes-area .blog-content-wrap .blog-content .blog-item4 .blog-inner-content .theme-btn:after,
 .causes-area .blog-content-wrap .blog-content .blog-item4 .barfiller .fill:after,
@@ -2362,6 +2368,8 @@ a:hover {
 .causes-area .blog-content-wrap .blog-content .blog-item1 .blog-inner-content .theme-btn:hover:after,
 .causes-area .blog-content-wrap .blog-content .blog-item2 .blog-inner-content .theme-btn:hover,
 .causes-area .blog-content-wrap .blog-content .blog-item2 .blog-inner-content .theme-btn:hover:after,
+.causes-area .blog-content-wrap .blog-content .blog-item2 .blog-inner-content .theme-btn2:hover,
+.causes-area .blog-content-wrap .blog-content .blog-item2 .blog-inner-content .theme-btn2:hover:after,
 .causes-area .blog-content-wrap .blog-content .blog-item3 .blog-inner-content .theme-btn:hover,
 .causes-area .blog-content-wrap .blog-content .blog-item3 .blog-inner-content .theme-btn:hover:after,
 .causes-area .blog-content-wrap .blog-content .blog-item4 .blog-inner-content .theme-btn:hover,
