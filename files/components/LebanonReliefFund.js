@@ -12,36 +12,31 @@ const LebanonReliefFund = () => {
                                 <div className="blog-img">
                                     <span className="blog__tag" style={{ color: '#008000' }}><i className="fa fa-flash"></i> Active</span>
 
-                                    <img src="/images/animals700x400.jpg" alt="" />
+                                    <img src="/images/beirutafterblast.jpg" alt="" />
                                 </div>
                                 <div className="blog-inner-content">
                                     <div className="inner-causes-box">
                                         <h3 className="blog__title">Lebanon Relief Fund</h3>
                                         <ul className="blog__list">
-                                            <li><i className="icon-target"></i> Goal: <span>$17,500</span></li>
-                                            <li><i className="fa fa-line-chart"></i> Raised: <span>$320</span></li>
+                                            <li><i className="icon-target"></i> Goal: <span>$10,000</span></li>
+                                            {/* <li><i className="fa fa-line-chart"></i> Raised: <span>$320</span></li> */}
                                         </ul>
                                     </div>
                                     <div className="inner-causes-btn">
-                                        <Link href="https://www.gofundme.com/f/local-emergency-relief-fund-for-lebanon"><a className="theme-btn">donate now</a></Link>
+                                        <Link href="https://www.gofundme.com/f/local-emergency-relief-fund-for-lebanon"><a className="theme-btn">learn more</a></Link>
                                     </div>
                                     
                                 </div>
                                 <div className="blog-inner-content-2">
                                     <p className="causes__text" style={{"color":"green"}}>
-                                    ACTIVE CAMPAIGN
+                                    Our current active fundraising campaign for Yemen is still ongoing, but we have established a separate fundraiser 
+                                    for our Lebanon Relief Fund on GoFundMe, linked above. 
                                     </p>
                                     <p className="causes__text">
-                                    Rife with political conflicts, war devastation, and famine, Yemen has over 
-                                    20 million of its 29 million people suffering from food insecurity (World Food 
-                                    Programme). According to the United Nations Association - UK, a child dies 
-                                    every 10 minutes from malnutrition or disease. The proxy war has worsened the 
-                                    dire humanitarian crisis by imposing severe restrictions on the flow of aid into 
-                                    Yemen. The United Nations Office for Coordination of Humanitarian Affairs 
-                                    reported that 14.3 million people, almost 50% of the population, need some 
-                                    form of aid to sustain their lives. 
+                                    Please use the link above to access our GoFundMe page, where more detailed information and updates about 
+                                    our fundraiser can be found.
                                     </p>
-                                    <p className="causes__text causes__text2">
+                                    {/* <p className="causes__text causes__text2">
                                     The core principle of our mission is sustainably alleviating poverty throughout 
                                     the Middle East. Our campaign aims to generate streams of income by distributing 
                                     animals to impoverished families, where they can use animal produce for cooking 
@@ -72,7 +67,7 @@ const LebanonReliefFund = () => {
                                     <p className="causes_text">
                                         Further information can be found here: <Link href = "https://yemenfoundation.org/project/income-generation/"><a>https://yemenfoundation.org/project/income-generation/</a></Link>
                                     </p>
-                                    </div>
+                                    </div> */}
 
                                 </div>
                             </div>
