@@ -79,7 +79,7 @@ const LebanonReliefFund = () => {
                                 <h2 className="widget__title">Share Cause</h2>
                                 <div className="side-share-profile">
                                     <ul>
-                                        <li><a href="/lebanon-relief-fund"><i className="fa fa-link"></i></a></li>
+                                        <li><a href="https://www.gofundme.com/f/local-emergency-relief-fund-for-lebanon"><i className="fa fa-link"></i></a></li>
                                     </ul>
                                 </div>
                             </div>

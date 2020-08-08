@@ -43,7 +43,7 @@ const CampaignArea = () => {
                                             <li><i className="icon-target"></i> Goal: <span>$10,000</span></li>
                                             {/* <li><i className="fa fa-line-chart"></i> Raised: <span>$320</span></li> */}
                                         </ul>
-                                        <a href="/lebanon-relief-fund" className="theme-btn blog-item1">learn more</a>
+                                        <a href="https://www.gofundme.com/f/local-emergency-relief-fund-for-lebanon" className="theme-btn blog-item1">learn more</a>
 
                                     </div>
                                 </div>
