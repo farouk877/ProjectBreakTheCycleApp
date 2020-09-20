@@ -19,7 +19,7 @@ const LebanonReliefFund = () => {
                                         <h3 className="blog__title">Lebanon Relief Fund</h3>
                                         <ul className="blog__list">
                                             <li><i className="icon-target"></i> Goal: <span>$10,000</span></li>
-                                            {/* <li><i className="fa fa-line-chart"></i> Raised: <span>$320</span></li> */}
+                                            <li><i className="fa fa-line-chart"></i> Raised: <span>$320</span></li>
                                         </ul>
                                     </div>
                                     <div className="inner-causes-btn">
