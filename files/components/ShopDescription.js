@@ -16,8 +16,8 @@ const ShopDescription = () => {
                                         Welcome to our shop! As always, 100% of profits go towards funding the current campaign! 
                                         Learn more about our campaigns by visiting our Campaigns page. Your purchase directly 
                                         impacts our mission to implement sustainable ways of breaking the cycle of injustice around 
-                                        the world. Please allow 1-3 weeks to receive your order. We keep a limited stock of our designs
-                                        so don't wait to buy cause once we run out we don't restock.
+                                        the world. Please allow 1-2 weeks to recieve your order. Less than 20 pieces remaining for 
+                                        our current collection!
                                         <br/><br/>
                                         Our Shop items are available now! Follow us on our social media to stay updated!
                                     </p>
