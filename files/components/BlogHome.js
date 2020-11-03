@@ -43,6 +43,16 @@ const BlogHome = () => {
                             <ul className="third-recent-item">
                                 <li>
                                     <div className="recent__img">
+                                        <a href="/summary-nov-2020"><img src="/images/novUpdate.jpg" alt="" /></a>
+                                    </div>
+                                    <div className="recent__content">
+                                        <span>02 nov, 2020</span>
+                                        <h4><a href="/summary-nov-2020">Summary of Events: Jul. 6, 2020- Oct. 31, 2020</a>
+                                        </h4>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div className="recent__img">
                                         <a href="/summary-june-2020"><img src="/images/htswkidspainting170x137.jpg" alt="" /></a>
                                     </div>
                                     <div className="recent__content">
