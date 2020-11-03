@@ -19,7 +19,7 @@ const FarmingIncomeGen = () => {
                                         <h3 className="blog__title">Income Generation Farming Project</h3>
                                         <ul className="blog__list">
                                             <li><i className="icon-target"></i> Goal: <span>$17,500</span></li>
-                                            <li><i className="fa fa-line-chart"></i> Raised: <span>$2,127</span></li>
+                                            <li><i className="fa fa-line-chart"></i> Raised: <span>$4,501</span></li>
                                         </ul>
                                     </div>
                                     <div className="inner-causes-btn">
