@@ -19,35 +19,33 @@ const BlogHome = () => {
                     <div className="col-lg-6">
                         <div className="recent-item">
                             <div className="recent__img">
-                                <span className="meta__date-date">06 jul, 2020</span>
-                                <img src="/images/logo_white_padding_570x354.png" alt="service-image" />
+                                <span className="meta__date-date">02 nov, 2020</span>
+                                <img src="/images/novUpdateLarge.jpg" alt="service-image" />
                             </div>
                             <div className="news__content">
-                                <h3 className="news__content-title"><a href="/our-official-relaunch">Our Official Relaunch</a></h3>
+                                <h3 className="news__content-title"><a href="/summary-nov-2020">Summary of Events: Jul. 6, 2020- Oct. 31, 2020</a></h3>
                                 <ul className="news__content-list">
                                     <li>PBTC</li>
                                 </ul>
                                 <p className="news__content-text">
-                                    Project Break The Cycle is excited to announce our relaunch today! We’ve been 
-                                    doing a lot of behind-the-scenes work to establish organizational sustainability 
-                                    and clarify our mission, making it easier and more efficient to support the causes 
-                                    we all care about. Below, we will address key points about our organization, and 
-                                    some awesome changes that were made!
+                                    The Project Break The Cycle team is eager to share some exciting news about what has been going on for the past several months.
                                 </p>
-                                <a href="/our-official-relaunch" className="theme-btn">read more</a>
+                                <a href="/summary-nov-2020" className="theme-btn">read more</a>
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-6">
                         <div className="third-recent-box">
                             <ul className="third-recent-item">
+
+
                                 <li>
                                     <div className="recent__img">
-                                        <a href="/summary-nov-2020"><img src="/images/novUpdate.jpg" alt="" /></a>
+                                        <a href="/our-official-relaunch"><img src="/images/logo_white_padding_270x295.png" alt="" /></a>
                                     </div>
                                     <div className="recent__content">
-                                        <span>02 nov, 2020</span>
-                                        <h4><a href="/summary-nov-2020">Summary of Events: Jul. 6, 2020- Oct. 31, 2020</a>
+                                        <span>06 jul, 2020</span>
+                                        <h4><a href="/our-official-relaunch">Our Official Relaunch</a>
                                         </h4>
                                     </div>
                                 </li>
