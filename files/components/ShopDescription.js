@@ -20,6 +20,7 @@ const ShopDescription = () => {
                                         our current collection!
                                         <br/><br/>
                                         Our Shop is temporarily closed for maintenance. Please visit us again after January 1, 2021. Follow us on social media to stay up-to-date - thank you!
+                                        <br/><br/>
                                     </p>
                                 </div>                              
                             </div>
