@@ -12,7 +12,7 @@ const ShopPage = () => {
             <NavOne />
             <PageHeader title="Shop" />
             <ShopDescription />
-            <Shop />
+            {/* <Shop /> */}
             <Footer />
         </Layout>
     );

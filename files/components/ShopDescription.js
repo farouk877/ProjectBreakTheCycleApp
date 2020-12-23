@@ -19,7 +19,7 @@ const ShopDescription = () => {
                                         the world. Please allow 1-2 weeks to recieve your order. Less than 20 pieces remaining for 
                                         our current collection!
                                         <br/><br/>
-                                        Our Shop items are available now! Follow us on our social media to stay updated!
+                                        Our Shop is temporarily closed for maintenance. Please visit us again after January 1, 2021. Follow us on social media to stay up-to-date - thank you!
                                     </p>
                                 </div>                              
                             </div>
