@@ -6,7 +6,7 @@ const FarmingIncomeGen = () => {
         <section className="causes-detail-area">
             <div className="container">
                 <div className="row blog-content-wrap">
-                    <div className="col-lg-8">
+                    <div className="col-lg-12">
                         <div className="blog-content">
                             <div className="blog-item">
                                 <div className="blog-img">
@@ -90,7 +90,7 @@ const FarmingIncomeGen = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-4">
+                    {/* <div className="col-lg-4">
                         <div className="sidebar-shared">
                             <div className="side-widget">
                                 <h2 className="widget__title">Share Cause</h2>
@@ -101,7 +101,7 @@ const FarmingIncomeGen = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </section>

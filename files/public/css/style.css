@@ -1300,6 +1300,28 @@ a:hover {
     margin-bottom: 14px;
 }
 
+
+
+.commonMoon-area {
+    background-color: transparent;
+    position: relative;
+    z-index: 1;
+    color: #424242;
+}
+.commonMoon-area .commonMoon-content {
+   text-align: center;
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.commonMoon-area .commonMoon-content .commonMoon__title {
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: 0;
+    color: #AFADD6;
+    font-weight: 800;
+    text-transform: capitalize;
+}
 /*===================================
     BREADCRUMB AREA
 =====================================*/
