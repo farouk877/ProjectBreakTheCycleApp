@@ -5348,27 +5348,27 @@ html {
 .newsletter-area-cm .section-heading-cm .section__meta-cm {
     color: #414042;
 }
-.newsletter-area-cm .newsletter-form {
+.newsletter-area-cm .newsletter-form-cm {
     margin-top: 51px;
 }
-.newsletter-area-cm .newsletter-form .col-lg-9 {
+.newsletter-area-cm .newsletter-form-cm .col-lg-9-cm {
     padding-right: 0;
     padding-left: 0;
 }
-.newsletter-area-cm .newsletter-form .form-shared form .form-group {
+.newsletter-area-cm .newsletter-form-cm .form-shared-cm form .form-group-cm {
     margin-bottom: 0;
 }
-.newsletter-area-cm .newsletter-form .form-shared form .form-group .form-control {
+.newsletter-area-cm .newsletter-form-cm .form-shared-cm form .form-group-cm .form-control-cm {
     background-color: #343434;
     color: #bfbfbf;
 }
-.newsletter-area-cm .newsletter-form .form-shared form .submit__btn,
-.newsletter-area-cm .newsletter-form .form-shared form .submit__btn:after {
+.newsletter-area-cm .newsletter-form-cm .form-shared-cm form .submit__btn-cm,
+.newsletter-area-cm .newsletter-form-cm .form-shared-cm form .submit__btn-cm:after {
     margin-top: 0;
-    background-color: #5f9ad1;
+    background-color: #414042;
 }
-.newsletter-area-cm .newsletter-form .form-shared form .submit__btn:hover,
-.newsletter-area-cm .newsletter-form .form-shared form .submit__btn:hover:after {
+.newsletter-area-cm .newsletter-form-cm .form-shared-cm form .submit__btn-cm:hover,
+.newsletter-area-cm .newsletter-form-cm .form-shared-cm form .submit__btn-cm:hover:after {
     background-color: #eaaf67;
 }
 

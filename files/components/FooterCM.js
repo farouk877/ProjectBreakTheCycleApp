@@ -89,19 +89,19 @@ class FooterCM extends Component {
                                             <img src="/images/section-icon.png" alt="section-icon" />
                                         </div>
                                         <h2 className="section__title text__black">Newsletter</h2>
-                                        <p className="section__meta">stay updated</p>
+                                        <p className="section__meta-cm">stay updated</p>
                                     </div>
                                     <div className="newsletter-form-cm">
-                                        <div className="form-shared">
+                                        <div className="form-shared-cm">
                                             <form onSubmit={this.handleSubmit}>
                                                 <div className="row">
                                                     <div className="col-lg-9">
-                                                        <div className="form-group">
+                                                        <div className="form-group-cm">
                                                             <input id="emailAddressMsgInput" name = 'email' value = {this.state.email} type="email" autoComplete="email" className="form-control" placeholder="Email address" onChange = {this.handleChange} required/>
                                                         </div>
                                                     </div>
                                                     <div className="col-lg-3">
-                                                        <button className="theme-btn submit__btn"
+                                                        <button className="theme-btn submit__btn-cm"
                                                                 type="submit">subscribe
                                                         </button>
                                                     </div>
