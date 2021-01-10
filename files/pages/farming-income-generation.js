@@ -5,6 +5,7 @@ import CommonMoonHeader from "../components/CommonMoonHeader";
 import Footer from "../components/Footer";
 import CallToAction from '../components/CallToAction';
 import FarmingIncomeGenCM from '../components/FarmingIncomeGenCM';
+import FooterCM from "../components/FooterCM";
 
 const FarmingIncomeGenerationPage = () => {
     return (
@@ -13,7 +14,8 @@ const FarmingIncomeGenerationPage = () => {
             <CommonMoonHeader title="Income Generation Farming Project" />
             <FarmingIncomeGenCM />
             {/* <CallToAction /> */}
-            <Footer />
+            <FooterCM />
+            {/* <Footer /> */}
         </Layout>
     );
 };
