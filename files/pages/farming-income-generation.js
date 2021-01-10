@@ -4,14 +4,14 @@ import NavOne from "../components/NavOne";
 import CommonMoonHeader from "../components/CommonMoonHeader";
 import Footer from "../components/Footer";
 import CallToAction from '../components/CallToAction';
-import FarmingIncomeGen from '../components/FarmingIncomeGen';
+import FarmingIncomeGenCM from '../components/FarmingIncomeGenCM';
 
 const FarmingIncomeGenerationPage = () => {
     return (
         <Layout pageTitle="PBTC | Income Generation Farming Project">
             <NavOne />
             <CommonMoonHeader title="Income Generation Farming Project" />
-            <FarmingIncomeGen />
+            <FarmingIncomeGenCM />
             {/* <CallToAction /> */}
             <Footer />
         </Layout>
