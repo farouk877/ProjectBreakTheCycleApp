@@ -24,7 +24,7 @@
     "react-modal-video": "^1.2.3",
     "react-paypal-button-v2": "^2.6.2",
     "react-visibility-sensor": "^5.1.1",
-    "swiper": "^5.3.6"
+    "swiper": "^6.5.1"
   },
   "devDependencies": {
     "html-loader": "^1.1.0",
